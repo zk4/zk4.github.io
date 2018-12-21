@@ -11,6 +11,6 @@ published: True
 # first post
 this is first
 test image 
-![asset/jest.png](asset/jest.png)
+![asset/jest.png](assets/jest.png)
  
-<asset/jest.png>
+<assets/jest.png>
