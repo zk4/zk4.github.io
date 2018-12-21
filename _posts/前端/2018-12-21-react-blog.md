@@ -5,6 +5,8 @@ category: 前端
 tags: [react,github,blog]
 keywords: markdown
 description:
+typora-copy-images-to: ../images
+
 ---
 
 # 示例
@@ -59,31 +61,6 @@ yarn build&&gh-pages -d build
 console 显示
 
 ````bash
-yarn run v1.9.2
-$ npm run build&&gh-pages -d build
-
-> react-powerd-blog@0.1.0 build /Users/zk/git/jsPrj/blog/react-powerd-blog
-> node scripts/build.js
-
-Creating an optimized production build...
-Compiled successfully.
-
-File sizes after gzip:
-
-  34.71 KB  build/static/js/1.fa92c112.chunk.js
-  771 B     build/static/js/runtime~main.7d69fcb0.js
-  712 B     build/static/js/main.0e99e3bf.chunk.js
-  511 B     build/static/css/main.bc900346.chunk.css
-
-The project was built assuming it is hosted at /react-blog/.
-You can control this with the homepage field in your package.json.
-
-The build folder is ready to be deployed.
-
-Find out more about deployment here:
-
-  http://bit.ly/CRA-deploy
-
 Published
 ✨  Done in 50.75s.
 ````
@@ -92,6 +69,7 @@ Published
 
  打开 <https://zk4.github.io/react-blog>
 
-# ![image-20181222012332467](/Users/zk/Library/Application Support/typora-user-images/image-20181222012332467.png)
+# ![image-20181222013535635](/Users/zk/git/jsPrj/jekyll/zk4.github.io/_posts/images/image-20181222013535635-5413735.png)
 
 成功。
+
