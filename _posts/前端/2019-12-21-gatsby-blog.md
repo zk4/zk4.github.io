@@ -2,7 +2,7 @@
 layout: post
 title: 部署 gatsby JS 到 github  gh-pages
 category: 前端
-tags: [react,github,blog]
+tags: [gatsby,github,blog]
 keywords: markdown
 description:
 typora-copy-images-to: ipic
