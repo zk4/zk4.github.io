@@ -69,7 +69,7 @@ Published
 
  打开 <https://zk4.github.io/react-blog>
 
-# ![image-20181222013535635](/assets/image-20181222013535635-5413735.png)
+# ![image-20181222013535635](/assets/image-20181222013535635.png)
 
 成功。
 
