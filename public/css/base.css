@@ -45,7 +45,7 @@ body, html {
 .aside1> .nav > li > a:hover {
   /*color:#fff;*/
   /*background-color: #14AA57;*/
-  // text-decoration: underline;
+   /* text-decoration: underline; */
 
   /*background-color: #57CB80;*/
 
@@ -122,14 +122,15 @@ h4.panel-title {
 }
 .aside3-date {
   margin-bottom: 10px;
-  // border-bottom: 1px solid #eee;
+ /* border-bottom: 1px solid #eee; */
 }
 .aside3-content {
   /*margin-bottom: 60px;*/
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 230px;
+  padding-right: 230px;
   color: #444443;
 }
+ 
 
 .photo img {
   max-width: 49.5% !important;
