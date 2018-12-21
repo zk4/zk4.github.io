@@ -36,7 +36,7 @@ disqus:
 comments:
   gitalk: true
   gitalk_clientID: '2bdaa3cadb84736bd481'
-  gitalk_Secret: '2bf4b2d010688d3fc06defef1ea63292f44baed3'
+  gitalk_secret: '2bf4b2d010688d3fc06defef1ea63292f44baed3'
   gitalk_repo: 'blog-comment'
   gitalk_owner: 'zk4'
   gitalk_admin: 'zk4'
