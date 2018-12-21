@@ -42,16 +42,15 @@
 <div id="disqus_thread"></div>
 <script type="text/javascript">
 
-		var gitalk = new Gitalk({
-			  clientID: '{{site.comments.gitalk_clientID}}',
-			  clientSecret: '{{site.comments.gitalk_secret}}',
-			  repo: '{{site.comments.gitalk_repo}}',
-			  owner: '{{site.comments.gitalk_owner}}',
-			  admin: ['zk4'],
-			  id: location.pathname,      // Ensure uniqueness and length less than 50jekyll-theme-H2O 配置 gitalk
-			  distractionFreeMode: 'true'  // Facebook-like distraction free mode
-			})
-
+const gitalk = new Gitalk({
+      clientID: '2bdaa3cadb84736bd481',
+      clientSecret: '2bf4b2d010688d3fc06defef1ea63292f44baed3',
+      repo: 'blog-comment',
+      owner: 'zk4',
+      admin: ['zk4'],
+      // facebook-like distraction free mode
+      distractionFreeMode: true
+    })
 			gitalk.render('disqus_thread')
 
    
