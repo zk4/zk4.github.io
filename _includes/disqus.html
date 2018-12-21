@@ -41,19 +41,15 @@
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'github-comment';
 
-const gitalk = new Gitalk({
-      clientID: '2bdaa3cadb84736bd481',
-      clientSecret: '2bf4b2d010688d3fc06defef1ea63292f44baed3',
-      repo: 'blog-comment',
-      owner: 'zk4',
-      admin: 'zk4',
-      // facebook-like distraction free mode
-      distractionFreeMode: true
-    })
-			gitalk.render('disqus_thread')
-
-   
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 

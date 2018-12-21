@@ -31,17 +31,7 @@ ga:
   id: UA-74789926-1
   url: https://blog.jimmylv.info
 disqus:
-  shortname: gotoshare
-
-comments:
-  gitalk: true
-  gitalk_clientID: '2bdaa3cadb84736bd481'
-  gitalk_secret: '2bf4b2d010688d3fc06defef1ea63292f44baed3'
-  gitalk_repo: 'blog-comment'
-  gitalk_owner: 'zk4'
-  gitalk_admin: 'zk4'
-  distractionFreeMode: true
- 
+  shortname: github-comment
 active: 前端
 cates:
 - React
