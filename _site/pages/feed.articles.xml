@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title> - Articles</title>
+		<description>想做产品，却误入程序世界爱上设计的摄影师。</description>
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/pages/feed.articles.xml" rel="self" type="application/rss+xml" />
+		
+			
+			<item>
+				<title>Vue 应用单元测试的策略与实践 04 - Vuex 单元测试</title>
+				
+					<description>&lt;h2 id=&quot;本文的目标&quot;&gt;本文的目标&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-11-02-vue-application-unit-test-strategy-and-practice-04-testing-vuex/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-11-02-vue-application-unit-test-strategy-and-practice-04-testing-vuex/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Vue 应用单元测试的策略与实践 03 - Vue 组件单元测试</title>
+				
+					<description>&lt;h2 id=&quot;本文的目标&quot;&gt;本文的目标&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-10-30-vue-application-unit-test-strategy-and-practice-03-testing-vue-components/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-10-30-vue-application-unit-test-strategy-and-practice-03-testing-vue-components/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Vue 应用单元测试的策略与实践 02 - 单元测试基础</title>
+				
+					<description>&lt;h2 id=&quot;本文的目标&quot;&gt;本文的目标&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-10-29-vue-application-unit-test-strategy-and-practice-02-how-jest-work/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-10-29-vue-application-unit-test-strategy-and-practice-02-how-jest-work/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】（数字化）平台思维的艺术</title>
+				
+					<description>&lt;h1 id=&quot;the-art-of-platform-thinking--平台思维的艺术&quot;&gt;The Art of Platform Thinking | 平台思维的艺术&lt;/h1&gt;
+
+</description>
+				
+				<pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-10-09-the-art-of-platform-thinking-zh/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-10-09-the-art-of-platform-thinking-zh/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>记一次 #博客大赛# 的作者采访</title>
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;在宝尊，#博客大赛#可以继续。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-09-28-interview-record-of-blog-contest-in-baozun/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-09-28-interview-record-of-blog-contest-in-baozun/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Vue 应用单元测试的策略与实践 01 - 前言</title>
+				
+					<description>&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-09-19-vue-application-unit-test-strategy-and-practice-01-introduction/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-09-19-vue-application-unit-test-strategy-and-practice-01-introduction/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>融核π：碎片化信息时代的生存之道</title>
+				
+					<description>&lt;p&gt;[slide]&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-04-10-how-to-survive-in-the-age-of-fragmented-information/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-04-10-how-to-survive-in-the-age-of-fragmented-information/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】《React 学习之道》The Road to learn React (简体中文版) 最简单，且最实用的 React 实战教程</title>
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;通往 React 实战大师之旅：掌握 React 最简单，且最实用的教程。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-01-26-the-road-to-learn-react-chinese-translation/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-01-26-the-road-to-learn-react-chinese-translation/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>技术雷达之「微前端」- 将微服务理念扩展到前端开发（上：理论篇）</title>
+				
+					<description>&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>技术雷达之「微前端」- 将微服务理念扩展到前端开发（下：实战篇）</title>
+				
+					<description>&lt;h2 id=&quot;前言与大纲&quot;&gt;前言与大纲&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed-next/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed-next/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>「技术雷达」之 Micro Frontends：微前端 - 将微服务理念扩展到前端开发</title>
+				
+					<description>&lt;p&gt;[slide]&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-12-22-tech-radar-microfrontends-extending-microservice-to-fed/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-12-22-tech-radar-microfrontends-extending-microservice-to-fed/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Serverless 实战：打造个人阅读追踪系统</title>
+				
+					<description>&lt;h2 id=&quot;阅读习惯和个人知识管理体系&quot;&gt;阅读习惯和个人知识管理体系&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Fri, 30 Jun 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-06-30-serverless-in-action-build-personal-reading-statistics-system/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-06-30-serverless-in-action-build-personal-reading-statistics-system/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>「技术雷达」之 PWA：Build Native-like Mobile Web App</title>
+				
+					<description>&lt;p&gt;[slide]&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-05-10-tech-radar-pwa-build-native-like-mobile-web-app/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-05-10-tech-radar-pwa-build-native-like-mobile-web-app/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>幸运出差之旅：在墨尔本的 6 Weeks</title>
+				
+					<description>
+</description>
+				
+				<pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-04-16-lucky-business-trip-six-weeks-in-melbourne/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-04-16-lucky-business-trip-six-weeks-in-melbourne/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>「React 系列 Workshop 01」之 Atomic Design with React</title>
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;nodeppt start -w&lt;/code&gt; by &lt;a href=&quot;https://github.com/ksky521/nodePPT&quot;&gt;ksky521/nodePPT&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-03-16-atomic-design-with-react-workshop-01/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-03-16-atomic-design-with-react-workshop-01/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？</title>
+				
+					<description>&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-02-20-gtd-best-practice-137/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-02-20-gtd-best-practice-137/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>个人成长基础设施：纪念那些年我折腾过的各种…</title>
+				
+					<description>&lt;h2 id=&quot;硬件软件篇-121&quot;&gt;硬件&amp;amp;软件篇 &lt;a href=&quot;https://github.com/JimmyLv/jimmylv.github.io/issues/121&quot;&gt;#121&lt;/a&gt;&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-01-21-personal-growth-infrastructure/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-01-21-personal-growth-infrastructure/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>微信小程序(1)：技术是如何服务于商业的？</title>
+				
+					<description>&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-01-10-wechat-app-with-business-and-technology-01/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-01-10-wechat-app-with-business-and-technology-01/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】整洁代码：JavaScript 当中的面向对象设计原则（S.O.L.I.D）</title>
+				
+					<description>&lt;p&gt;原文地址：&lt;a href=&quot;https://github.com/ryanmcdermott/clean-code-javascript#classes&quot;&gt;https://github.com/ryanmcdermott/clean-code-javascript#classes&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-01-08-clean-code-javascript-classes-design-principles/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-01-08-clean-code-javascript-classes-design-principles/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>「技术雷达」之使用 Enzyme 测试 React（Native）组件</title>
+				
+					<description>&lt;h2 id=&quot;组件化与-ui-测试&quot;&gt;组件化与 UI 测试&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Wed, 07 Dec 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-12-07-react-testing-with-enzyme/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-12-07-react-testing-with-enzyme/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>基于 GitHub 的敏捷学习方法之道与术</title>
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;持续行动，持续反思，持续进步。—— via. 敏捷学习宣言&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Sun, 04 Dec 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-12-04-agile-learning-based-on-github-issues/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-12-04-agile-learning-based-on-github-issues/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>「技术雷达」之 React (Native) Testing with Enzyme</title>
+				
+					<description>&lt;p&gt;30 min = 15 min * 2&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 30 Nov 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-11-30-tech-radar-react-testing-with-enzyme/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-11-30-tech-radar-react-testing-with-enzyme/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>渐进式知识管理：写作动机与分享的价值影响</title>
+				
+					<description>&lt;h2 id=&quot;从关注输入端到开始注重输出端&quot;&gt;从关注输入端到开始注重输出端&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sat, 19 Nov 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-11-19-input-and-output-of-PKM/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-11-19-input-and-output-of-PKM/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>小幸运：科技带来的持续感动</title>
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;很久没有写文章了，零零碎碎记了一些东西却也没能把它们串联起来；&lt;/p&gt;
+
+  &lt;p&gt;毕竟我也不想断掉每个月都有文章发布的成就……&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-10-26-technology-make-world-better-place/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-10-26-technology-make-world-better-place/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>JSConf 2016 (Ning)</title>
+				
+					<description>&lt;p&gt;[slide]&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-09-18-jsconf-summary-feature-team-and-developer-experience/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-09-18-jsconf-summary-feature-team-and-developer-experience/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>不断革新，不断改进：去伪存真的知识管理之路</title>
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;「不断革新，不断改进。」—— via. 敏捷学习宣言&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Fri, 16 Sep 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-09-16-sorting-out-knowledge-from-information/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-09-16-sorting-out-knowledge-from-information/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>WorkShop 笔记：Linux shell 命令密室逃脱之旅</title>
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;Thanks to 讲师/谈一秀、杜屹东&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Wed, 17 Aug 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-08-17-linux-shell-workshop-note/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-08-17-linux-shell-workshop-note/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Adobe AEM 101 Overview</title>
+				
+					<description>&lt;p&gt;30 min = 15 min * 2&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-07-28-adobe-aem-101-overview/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-07-28-adobe-aem-101-overview/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】主动阅读：评注的艺术</title>
+				
+					<description>&lt;h1 id=&quot;active-reading-the-art-of-annotation--主动阅读评注的艺术&quot;&gt;Active Reading: The Art of Annotation | 主动阅读：评注的艺术&lt;/h1&gt;
+
+</description>
+				
+				<pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-07-20-active-reading-the-art-of-annotation/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-07-20-active-reading-the-art-of-annotation/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>再谈个人知识管理：革新我的笔记系统</title>
+				
+					<description>&lt;h2 id=&quot;书写和阅读是不一样的体验&quot;&gt;书写和阅读是不一样的体验&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Tue, 12 Jul 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-07-12-pkm-again-to-innovate-my-note-system/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-07-12-pkm-again-to-innovate-my-note-system/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>全面思考：Mac + iPhone 效率加速之战略篇 &amp;&amp; 战术篇</title>
+				
+					<description>&lt;h2 id=&quot;战略篇&quot;&gt;战略篇&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-07-10-speed-up-mac-efficiency/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-07-10-speed-up-mac-efficiency/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>持续用户体验：Learning AEM</title>
+				
+					<description>
+</description>
+				
+				<pubDate>Sat, 09 Jul 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-07-09-learning-aem/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-07-09-learning-aem/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】什么是 Flux 架构？（兼谈 DDD 和 CQRS）</title>
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://facebook.github.io/flux/docs/overview.html&quot;&gt;Flux&lt;/a&gt; is an application architecture designed by Facebook for their JavaScript applications. It was first introduced by Facebook in May 2014, and it has since garnered much interest in the JavaScript community.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Thu, 07 Jul 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-07-07-what-the-flux-on-flux-ddd-and-cqrs/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-07-07-what-the-flux-on-flux-ddd-and-cqrs/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】Redux + React 应用程序架构的 3 条规范（内附实例）</title>
+				
+					<description>&lt;p&gt;原文地址：&lt;a href=&quot;http://jaysoo.ca/2016/02/28/organizing-redux-application/&quot;&gt;http://jaysoo.ca/2016/02/28/organizing-redux-application/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-07-04-rules-for-structuring-redux-applications/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-07-04-rules-for-structuring-redux-applications/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】一种更好的 React/Redux 应用程序的文件目录结构</title>
+				
+					<description>&lt;p&gt;原文地址: &lt;a href=&quot;http://marmelab.com/blog/2015/12/17/react-directory-structure.html&quot;&gt;http://marmelab.com/blog/2015/12/17/react-directory-structure.html&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 03 Jul 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-07-03-a-better-file-structure-for-react-redux-applications/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-07-03-a-better-file-structure-for-react-redux-applications/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Python 基础如何学习 Java</title>
+				
+					<description>
+</description>
+				
+				<pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-06-24-learning-java/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-06-24-learning-java/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>敏捷写作：macOS 环境下写作系统的最优配置</title>
+				
+					<description>&lt;h2 id=&quot;敏捷与个人成长&quot;&gt;敏捷与个人成长&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sat, 11 Jun 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-06-11-write-in-mac-os-x/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-06-11-write-in-mac-os-x/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>随笔：关于选择、时间和注意力</title>
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;前阵子对生活太没追求了。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Fri, 10 Jun 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-06-10-about-choice-time-and-attention/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-06-10-about-choice-time-and-attention/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】唯快不破：Web 应用的 13 个优化步骤</title>
+				
+					<description>&lt;p&gt;原文地址: &lt;a href=&quot;https://auth0.com/blog/2016/02/22/12-steps-to-a-faster-web-app/&quot;&gt;12 Steps to a Faster Web App – Auth0&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 10 Jun 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-06-10-thirteen-steps-to-a-faster-web-app/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-06-10-thirteen-steps-to-a-faster-web-app/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】在 Webstorm 中使用 ReactJS：编码辅助、代码规范、重构以及编译</title>
+				
+					<description>&lt;h2 id=&quot;1-working-with-reactjs-in-webstorm-coding-assistance&quot;&gt;1. &lt;a href=&quot;https://blog.jetbrains.com/webstorm/2015/10/working-with-reactjs-in-webstorm-coding-assistance/&quot;&gt;Working with ReactJS in WebStorm: Coding Assistance&lt;/a&gt;&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Wed, 18 May 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-05-18-working-with-reactjs-in-webstorm/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-05-18-working-with-reactjs-in-webstorm/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】Redux 和 命令模式</title>
+				
+					<description>&lt;p&gt;原文地址：&lt;a href=&quot;https://medium.com/@abhiaiyer/the-command-pattern-c51292e22ea7&quot;&gt;Redux and The Command Pattern (Apr 7, by Abhi Aiyer)&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-04-19-redux-and-the-command-pattern/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-04-19-redux-and-the-command-pattern/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】Facebook 正式发布 ReactJS v15.0 稳定版</title>
+				
+					<description>&lt;p&gt;原文地址：&lt;a href=&quot;https://facebook.github.io/react/blog/2016/04/07/react-v15.html&quot;&gt;React v15.0 (April 7, 2016 by Dan Abramov)&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-04-08-react-v15-the-big-and-great-latest-version/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-04-08-react-v15-the-big-and-great-latest-version/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>前端模块化小史，Webpack 入门</title>
+				
+					<description>&lt;p&gt;30 min = 15 min * 2&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 28 Mar 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-03-28-js-moudle-history-and-webpack-in-action/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-03-28-js-moudle-history-and-webpack-in-action/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>搞定 Webpack (2)：使用 Webpack 大幅提升前端开发体验</title>
+				
+					<description>&lt;h2 id=&quot;安装运行热加载&quot;&gt;安装，运行，热加载&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sun, 13 Mar 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-03-13-webpack-in-action/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-03-13-webpack-in-action/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>搞定 Webpack (1)：前端模块化实践小史与 Webpack 入门</title>
+				
+					<description>&lt;h2 id=&quot;javascript-模块化管理&quot;&gt;JavaScript 模块化管理&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Thu, 10 Mar 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-03-10-getting-webpack-done-and-js-module-history/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-03-10-getting-webpack-done-and-js-module-history/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>升级 AngularJS 1.5：新特性对比与最佳实践</title>
+				
+					<description>&lt;h2 id=&quot;图谋不轨帮助勾引开发者过渡到-angular-20&quot;&gt;图谋不轨：帮助（&lt;del&gt;勾引&lt;/del&gt;）开发者过渡到 Angular 2.0&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-03-08-introduction-of-angular-new-features-by-examples/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-03-08-introduction-of-angular-new-features-by-examples/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】展望2016，React.js 最佳实践</title>
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;React.js 作为前端框架的后起之秀，却在2015年携着虚拟 DOM，组件化，单向数据流等利器，给前端 UI 构建掀起了一波声势浩大的函数式新潮流。新鲜出炉的一篇 React.js 最佳实践，基本涵盖了所有的 React.js 生态周边，可用于实践参考。文章不仅表明了 Flux 经常被滥用的观点，也推荐开发者使用 Redux 作为 JavaScript 的可预测状态容器，并且提出保持状态扁平化和使用 Immutable.js 等数据处理解决方案。与此同时，也从高阶组件，组件测试以及组件级别热重载等方面提供了建议，当然也涉及了 Webpack，HTTP 2，使用 ES2015 乃至 Linters 等代码层面的建议。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-02-21-Chinese-Version-of-React.js-Best-Practices-for-2016/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-02-21-Chinese-Version-of-React.js-Best-Practices-for-2016/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Rethink AngularJS in Action</title>
+				
+					<description>&lt;p&gt;30 min = 15 min * 2&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 16 Feb 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-02-16-rethink-angularjs-in-action/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-02-16-rethink-angularjs-in-action/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】使用 Meteor 构建「积极的用户界面」</title>
+				
+					<description>&lt;h1 id=&quot;optimistic-ui-with-meteor&quot;&gt;Optimistic UI with Meteor&lt;/h1&gt;
+
+</description>
+				
+				<pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-02-11-optimistic-ui-with-meteor/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-02-11-optimistic-ui-with-meteor/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】展望2016，React.js 最佳实践 (中英对照版)</title>
+				
+					<description>&lt;h1 id=&quot;reactjs-best-practices-for-2016&quot;&gt;React.js Best Practices for 2016&lt;/h1&gt;
+
+</description>
+				
+				<pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-01-22-reactjs-best-practices-for-2016/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-01-22-reactjs-best-practices-for-2016/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Node PPT Markdown 演示（转）</title>
+				
+					<description>&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nodeppt&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;markdown&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;演示&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;speaker&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;三水清&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//github.com/ksky521/nodePPT&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;move&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;files&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/css/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/js/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;zoom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;js&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;moon&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+				
+				<pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-01-01-introduction-of-node-ppt/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-01-01-introduction-of-node-ppt/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>思沃讲堂：Spring MVC 实战</title>
+				
+					<description>&lt;p&gt;[slide]&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-12-10-spring-mvc-in-action/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-12-10-spring-mvc-in-action/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>REST IN ACTION</title>
+				
+					<description>&lt;p&gt;[slide]&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 08 Dec 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-12-08-rest-in-action/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-12-08-rest-in-action/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>使用 Gradle 快速构建项目以及 Gradle 速度优化</title>
+				
+					<description>&lt;h2 id=&quot;内容简介&quot;&gt;内容简介&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-11-16-how-to-use-gradle-and-speed-up-build-time/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-11-16-how-to-use-gradle-and-speed-up-build-time/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>什么才是真正的 RESTful 架构？</title>
+				
+					<description>&lt;p&gt;更多内容请看我最近在写的一本小书：&lt;a href=&quot;https://jimmylv.gitbooks.io/learning-microservices/content/&quot;&gt;《Microservice 最佳实践之路》&lt;/a&gt;，实为项目上的踩坑手册。&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-11-11-what-is-really-rest/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-11-11-what-is-really-rest/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>关于前端的思考：Angular 2.0以及前后端边界</title>
+				
+					<description>&lt;h2 id=&quot;前端的学习曲线&quot;&gt;前端的学习曲线&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-11-11-rethinking-about-front-end/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-11-11-rethinking-about-front-end/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>GitHub开源项目源码十阅(1)：getAwesomeness</title>
+				
+					<description>&lt;h1 id=&quot;github开源项目getawesomeness&quot;&gt;GitHub开源项目：getAwesomeness&lt;/h1&gt;
+
+</description>
+				
+				<pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-11-10-reading-open-resource-code-from-github/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-11-10-reading-open-resource-code-from-github/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Web 前端开发模式演变</title>
+				
+					<description>&lt;p&gt;30 min = 15 min * 2&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-11-02-history-about-web-development-evolution/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-11-02-history-about-web-development-evolution/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>从需求出发：再谈 macOS 下的 Mission Control</title>
+				
+					<description>&lt;h2 id=&quot;从需求出发&quot;&gt;从需求出发&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-10-31-mission-control-on-mac-os-x/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-10-31-mission-control-on-mac-os-x/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>谈谈效率：工作与生活、压力与负担</title>
+				
+					<description>&lt;h2 id=&quot;卧槽这歌好hi&quot;&gt;卧槽，这歌好Hi~&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Fri, 30 Oct 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-10-30-productivity-and-pressure/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-10-30-productivity-and-pressure/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>个人知识管理：知识的三种形态</title>
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;知乎上对于 PKM 的话题描述：一种新的知识管理的理念和方法，能将个人拥有的各种资料、随手可得的信息变成更具价值的知识，最终利于自己的工作、生活。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Fri, 09 Oct 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-10-09-three-types-of-knowledge/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-10-09-three-types-of-knowledge/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】React.js教程 第四部分：Express路由</title>
+				
+					<description>&lt;p&gt;技术系列笔记均已迁移至GitBook，更多&lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt;的内容请到：&lt;a href=&quot;http://jimmylv.gitbooks.io/learning-react-js/content/reactjs_tutorial/reactjs_tutorial_part_4.html&quot;&gt;http://jimmylv.gitbooks.io/learning-react-js/content/reactjs_tutorial/reactjs_tutorial_part_4.html&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 27 Sep 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-09-27-reactjs_tutorial_part_4/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-09-27-reactjs_tutorial_part_4/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>一个知识清单：如何学习Python爬虫</title>
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;import this.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Wed, 23 Sep 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-09-23-crawler-using-python/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-09-23-crawler-using-python/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】Better Java 中英对照译本</title>
+				
+					<description>
+</description>
+				
+				<pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-09-21-better-java-zh/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-09-21-better-java-zh/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>随想：没有比这更好的状态</title>
+				
+					<description>&lt;p&gt;马上就要进入到第三个月，下一周就要进行第二个月的Interview++了，心情早已没有了当初的那种忐忑与不安，相比于第一个月自己当然要做得好些，但依旧还是不够。其实我也不知道在这个时间点该是一种什么样的心情，该给自己定下一个什么样的目标。&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 20 Sep 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-09-20-recent-plan-focus/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-09-20-recent-plan-focus/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>看介里！Rails Girls成都站活动总结火热来袭~</title>
+				
+					<description>&lt;p&gt;在连续阴雨天好一阵之后，成都终于在这个周末迎来了首个好天气，天公如此作美是为何？因为我们这周六举行了一场「颜值爆表」的社区活动————Rails Girls，上天怎么会狠心下雨淋到如此美丽可爱的妹纸们呢？&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-09-15-rails-girls-internal-version/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-09-15-rails-girls-internal-version/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>周期性大姨夫：一篇关于梦想和生活的咆哮</title>
+				
+					<description>&lt;h1 id=&quot;周期性大姨夫&quot;&gt;周期性大姨夫&lt;/h1&gt;
+
+</description>
+				
+				<pubDate>Sat, 05 Sep 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-09-05-periodically-anxiety/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-09-05-periodically-anxiety/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>PKM：个人知识管理</title>
+				
+					<description>&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h1 id=&quot;done-is-better-than-perfect&quot;&gt;「Done is better than perfect.」&lt;/h1&gt;
+
+</description>
+				
+				<pubDate>Sat, 29 Aug 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-08-29-personal-knowledge-management/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-08-29-personal-knowledge-management/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】使用微服务构建原生云端应用 - 第一部分</title>
+				
+					<description>&lt;h1 id=&quot;使用微服务构建原生云端应用---第一部分&quot;&gt;使用微服务构建原生云端应用 - 第一部分&lt;/h1&gt;
+
+</description>
+				
+				<pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-08-25-using_microservices_to_build_cloud_native_applications__part_1/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-08-25-using_microservices_to_build_cloud_native_applications__part_1/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】使用Spring Boot开发RESTful Web服务</title>
+				
+					<description>&lt;h1 id=&quot;使用spring-boot开发restful-web服务&quot;&gt;使用Spring Boot开发RESTful Web服务&lt;/h1&gt;
+
+</description>
+				
+				<pubDate>Sun, 23 Aug 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-08-23-developing_a_restful_web_service_using_spring_boot/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-08-23-developing_a_restful_web_service_using_spring_boot/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】React.js教程 番外篇（二）：如何升级NPM依赖的版本</title>
+				
+					<description>&lt;p&gt;技术系列笔记均已迁移至GitBook，更多&lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt;的内容请到：&lt;a href=&quot;http://jimmylv.gitbooks.io/learning-react-js/content/reactjs_tutorial/reactjs_tutorial_part_1.html&quot;&gt;http://jimmylv.gitbooks.io/learning-react-js/content/reactjs_tutorial/reactjs_tutorial_part_1.html&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 22 Aug 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-08-22-reactjs_tutorial_part_interlude_2/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-08-22-reactjs_tutorial_part_interlude_2/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>塔吉锅简介以及菜谱推荐</title>
+				
+					<description>&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sun, 16 Aug 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-08-16-introduction-about-tagine/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-08-16-introduction-about-tagine/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>2015年阅读书单</title>
+				
+					<description>
+</description>
+				
+				<pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-08-01-reading-book-list-2015/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-08-01-reading-book-list-2015/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】React.js教程 第三部分：一个真实的React组件</title>
+				
+					<description>&lt;p&gt;技术系列笔记均已迁移至GitBook，更多&lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt;的内容请到：&lt;a href=&quot;http://jimmylv.gitbooks.io/learning-react-js/content/reactjs_tutorial/reactjs_tutorial_part_1.html&quot;&gt;http://jimmylv.gitbooks.io/learning-react-js/content/reactjs_tutorial/reactjs_tutorial_part_1.html&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 30 Jul 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-07-30-reactjs_tutorial_part_3/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-07-30-reactjs_tutorial_part_3/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Microservices 最佳实践之路</title>
+				
+					<description>
+</description>
+				
+				<pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-07-26-learning-microservices/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-07-26-learning-microservices/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>记一次对话：自我与环境以及环境中的人</title>
+				
+					<description>&lt;h2 id=&quot;以人为导向写日记&quot;&gt;以「人」为导向写日记&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-07-25-about-people-in-tw/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-07-25-about-people-in-tw/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>吕立青拍的壁纸系列（一）</title>
+				
+					<description>&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tNbRwgy1fw2apqive9j30w01hck52.jpg&quot; alt=&quot;//o7mw3gkkh.qnssl.com//S50615-150245.jpg&quot; /&gt;
+&lt;img src=&quot;https://ws3.sinaimg.cn/large/006tNbRwgy1fw2apwqcbxj30w01hc1d2.jpg&quot; alt=&quot;//o7mw3gkkh.qnssl.com//S50616-152521.jpg&quot; /&gt;
+&lt;img src=&quot;https://ws3.sinaimg.cn/large/006tNbRwgy1fw2aq4ix39j30w01hck94.jpg&quot; alt=&quot;//o7mw3gkkh.qnssl.com//S50616-160623.jpg&quot; /&gt;
+&lt;img src=&quot;https://ws1.sinaimg.cn/large/006tNbRwgy1fw2aq61s76j30w01hcaww.jpg&quot; alt=&quot;//o7mw3gkkh.qnssl.com//S50616-160636.jpg&quot; /&gt;
+&lt;img src=&quot;https://ws3.sinaimg.cn/large/006tNbRwgy1fw2aq99r44j30w01hc1cy.jpg&quot; alt=&quot;//o7mw3gkkh.qnssl.com//S50616-160846.jpg&quot; /&gt;
+&lt;img src=&quot;https://ws1.sinaimg.cn/large/006tNbRwgy1fw2aqarc6uj30w01hctr2.jpg&quot; alt=&quot;//o7mw3gkkh.qnssl.com//S50616-160912.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-07-23-wallpaper-by-liqing-01/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-07-23-wallpaper-by-liqing-01/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>安利 GitBook：兼谈笔记与博客的区别</title>
+				
+					<description>&lt;h2 id=&quot;笔记与博客的区别&quot;&gt;笔记与博客的区别&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-07-22-difference-between-blog-and-note/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-07-22-difference-between-blog-and-note/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】React.js教程 番外篇（一）：使用Bower包管理工具</title>
+				
+					<description>&lt;p&gt;技术系列笔记均已迁移至GitBook，更多&lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt;的内容请到：&lt;a href=&quot;http://jimmylv.gitbooks.io/learning-react-js/content/reactjs_tutorial/reactjs_tutorial_part_1.html&quot;&gt;http://jimmylv.gitbooks.io/learning-react-js/content/reactjs_tutorial/reactjs_tutorial_part_1.html&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-06-22-reactjs_tutorial_part_interlude/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-06-22-reactjs_tutorial_part_interlude/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】React.js教程 第二部分：使用Gulp自动化构建工具</title>
+				
+					<description>&lt;p&gt;技术系列笔记均已迁移至GitBook，更多&lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt;的内容请到：&lt;a href=&quot;http://jimmylv.gitbooks.io/learning-react-js/content/reactjs_tutorial/reactjs_tutorial_part_1.html&quot;&gt;http://jimmylv.gitbooks.io/learning-react-js/content/reactjs_tutorial/reactjs_tutorial_part_1.html&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 06 Jun 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-06-06-reactjs_tutorial_part_2/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-06-06-reactjs_tutorial_part_2/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】React.js教程 第一部分：Hello World!</title>
+				
+					<description>&lt;p&gt;技术系列笔记均已迁移至GitBook，更多&lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt;的内容请到：&lt;a href=&quot;http://jimmylv.gitbooks.io/learning-react-js/content/reactjs_tutorial/reactjs_tutorial_part_1.html&quot;&gt;http://jimmylv.gitbooks.io/learning-react-js/content/reactjs_tutorial/reactjs_tutorial_part_1.html&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 31 May 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-05-31-reactjs_tutorial_part_1/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-05-31-reactjs_tutorial_part_1/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>出走寝室：在图书馆的所思所想</title>
+				
+					<description>&lt;h2 id=&quot;新感觉&quot;&gt;新感觉&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Wed, 27 May 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-05-27-new-state-in-library/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-05-27-new-state-in-library/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>吕立青拍的壁纸系列（二）</title>
+				
+					<description>&lt;p&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/006tNbRwgy1fw2ap6w2zij30w01hck75.jpg&quot; alt=&quot;//o7mw3gkkh.qnssl.com//S50616-162617.jpg&quot; /&gt;
+&lt;img src=&quot;https://ws2.sinaimg.cn/large/006tNbRwgy1fw2ap9grwxj30w01hcwvz.jpg&quot; alt=&quot;//o7mw3gkkh.qnssl.com//S50616-162654.jpg&quot; /&gt;
+&lt;img src=&quot;https://ws1.sinaimg.cn/large/006tNbRwgy1fw2apenuw0j30w01hce0u.jpg&quot; alt=&quot;//o7mw3gkkh.qnssl.com//S50616-162720.jpg&quot; /&gt;
+&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tNbRwgy1fw2apkqb4ij30w01hch3q.jpg&quot; alt=&quot;//o7mw3gkkh.qnssl.com//S50616-162738.jpg&quot; /&gt;
+&lt;img src=&quot;https://ws3.sinaimg.cn/large/006tNbRwgy1fw2aplp5hij30w01hcndf.jpg&quot; alt=&quot;//o7mw3gkkh.qnssl.com//S50616-162805.jpg&quot; /&gt;
+&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tNbRwgy1fw2apodqn5j30w01hc188.jpg&quot; alt=&quot;//o7mw3gkkh.qnssl.com//S50616-163002.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 23 May 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-05-23-wallpaper-by-liqing-02/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-05-23-wallpaper-by-liqing-02/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Node.js的正确安装与相关工具（Mac OS X）</title>
+				
+					<description>&lt;h2 id=&quot;版本分裂&quot;&gt;版本分裂&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sun, 17 May 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-05-17-how-to-install-nodejs-correctly/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-05-17-how-to-install-nodejs-correctly/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>React.js 复习笔记：组件组合与复用</title>
+				
+					<description>&lt;h2 id=&quot;why-react&quot;&gt;Why React?&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-05-14-learning-reactjs/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-05-14-learning-reactjs/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>由写作环境引发的反思：单一入口的智能化</title>
+				
+					<description>&lt;h2 id=&quot;绪论&quot;&gt;绪论&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-05-12-intellectual-and-single-entrance/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-05-12-intellectual-and-single-entrance/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>关于不同翻墙软件：GoAgent和ShadowSocks</title>
+				
+					<description>&lt;h2 id=&quot;伟大的https&quot;&gt;伟大的HTTPS&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-04-29-fight-with-gfw/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-04-29-fight-with-gfw/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>React 学习笔记总结</title>
+				
+					<description>
+</description>
+				
+				<pubDate>Sat, 21 Mar 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-03-21-learning-react-js/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-03-21-learning-react-js/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】The Hitchhiker’s Guide to Python! 中英对照译本</title>
+				
+					<description>
+</description>
+				
+				<pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-03-01-python-guide-zh/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-03-01-python-guide-zh/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>读万卷书不如行万里路，行万里路不如互联网学习</title>
+				
+					<description>&lt;p&gt;读书这种吸收知识信息的形式真的足够好吗？我知道自己可能是没有足够的耐心学习一样的东西才会认为书本学习不够好，但随着信息时代的发展，知识的载体和学习的方式都应该要发生一些改变了。&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 12 Feb 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-02-12-internet-learning-better-than-reading-book/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-02-12-internet-learning-better-than-reading-book/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>【译】The Hitchhiker’s Guide to Python! 中英对照译本</title>
+				
+					<description>&lt;p&gt;更多翻译内容请查看GitBook地址：&lt;a href=&quot;http://jimmylv.gitbooks.io/python-guide-zh/&quot;&gt;http://jimmylv.gitbooks.io/python-guide-zh/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 17 Jan 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2015-01-17-python-guide-e2c-plan/</link>
+				<guid isPermaLink="true">http://localhost:4000/2015-01-17-python-guide-e2c-plan/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Python基础如何学习Java：如何开始学习一门新语言</title>
+				
+					<description>&lt;h2 id=&quot;浅谈java消除对java的歧视&quot;&gt;浅谈Java：消除对Java的歧视&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-11-17-python-to-java-01/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-11-17-python-to-java-01/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>西南交大摄影集【二】</title>
+				
+					<description>&lt;p&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/006tNbRwgy1fw2as793kmj30sg0iz4qp.jpg&quot; alt=&quot;8&quot; /&gt;
+&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tNbRwgy1fw2asat6j9j30sg0iy7wh.jpg&quot; alt=&quot;9&quot; /&gt;
+&lt;img src=&quot;https://ws3.sinaimg.cn/large/006tNbRwgy1fw2asbjtqlj30kg0dl7bx.jpg&quot; alt=&quot;10&quot; /&gt;
+&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tNbRwgy1fw2aseol07j30sg0ianf3.jpg&quot; alt=&quot;11&quot; /&gt;
+&lt;img src=&quot;https://ws1.sinaimg.cn/large/006tNbRwgy1fw2asgtjzdj30sg0iwtd6.jpg&quot; alt=&quot;12&quot; /&gt;
+&lt;img src=&quot;https://ws2.sinaimg.cn/large/006tNbRwgy1fw2asj0p9ej30dw0kxgrp.jpg&quot; alt=&quot;13&quot; /&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-11-17-swjtu-photos-02/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-11-17-swjtu-photos-02/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Ubuntu下的几种命令行编辑器介绍</title>
+				
+					<description>&lt;h2 id=&quot;命令行编辑器&quot;&gt;命令行编辑器&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sun, 16 Nov 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-11-16-linux-text-editor/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-11-16-linux-text-editor/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>「反思我的大学」之科学与技术</title>
+				
+					<description>&lt;h2 id=&quot;rethink-系列之反思我的大学科学与技术&quot;&gt;Rethink 系列之「反思我的大学」：科学与技术&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sun, 16 Nov 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-11-16-think-college-1/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-11-16-think-college-1/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>The Zen of Python：Python之禅</title>
+				
+					<description>&lt;h2 id=&quot;the-zen-of-python-by-tim-peters&quot;&gt;The Zen of Python, by Tim Peters&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sat, 15 Nov 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-11-15-pythonic-zen/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-11-15-pythonic-zen/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>突然明白自己的焦虑来自何处</title>
+				
+					<description>&lt;p&gt;突然明白自己的焦虑来自何处。&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-11-01-why-i-am-so-serious/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-11-01-why-i-am-so-serious/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>ThoughtWorks 面试演讲稿</title>
+				
+					<description>&lt;p&gt;最近天气转凉，我也不幸因此感冒了， 所以声音有点嘶哑，讲得不好也请大家见谅。大家也要及时添加衣服，不要像我一样感冒了。&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 27 Oct 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-10-27-thoughtworks-interview-speech/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-10-27-thoughtworks-interview-speech/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Ubuntu下的程序安装与卸载</title>
+				
+					<description>&lt;h2 id=&quot;程序安装与卸载apt-get&quot;&gt;程序安装与卸载&lt;code class=&quot;highlighter-rouge&quot;&gt;apt-get&lt;/code&gt;&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-09-28-Linux-apt-get/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-09-28-Linux-apt-get/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Ubuntu系统快捷键和文件处理命令</title>
+				
+					<description>&lt;h2 id=&quot;重要的快捷键&quot;&gt;重要的快捷键&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sat, 27 Sep 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-09-27-Linux-file-and-dir/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-09-27-Linux-file-and-dir/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>配置Python开发环境和Sublime Text 3编辑器</title>
+				
+					<description>&lt;!-- MarkdownTOC --&gt;
+
+</description>
+				
+				<pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-09-26-setting-sublime-for-python/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-09-26-setting-sublime-for-python/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>写作环境的搭建（Jekyll+GitHub+Markdown）</title>
+				
+					<description>&lt;h2 id=&quot;搭建jekyll环境&quot;&gt;搭建Jekyll环境&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-09-26-write-article-use-jekyll-github-markdown/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-09-26-write-article-use-jekyll-github-markdown/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Git安装笔记与如何连接GitHub远程仓库</title>
+				
+					<description>&lt;h2 id=&quot;1-安装设置git&quot;&gt;1. 安装/设置Git&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Thu, 25 Sep 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-09-25-use-git-and-github/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-09-25-use-git-and-github/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Ubuntu系统的安装与优化</title>
+				
+					<description>&lt;h2 id=&quot;安装ubuntu&quot;&gt;安装Ubuntu&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Thu, 25 Sep 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-09-25-how-to-install-and-config-ubuntu/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-09-25-how-to-install-and-config-ubuntu/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Ruby入门：环境的搭建与RubyMine的安装</title>
+				
+					<description>&lt;h2 id=&quot;搭建ruby环境rvmrubyrailsgems&quot;&gt;搭建Ruby环境（RVM+Ruby+Rails+Gems）&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Thu, 25 Sep 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-09-25-begin-ruby-with-rubymine/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-09-25-begin-ruby-with-rubymine/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>2014年阅读书单</title>
+				
+					<description>
+</description>
+				
+				<pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2014-01-01-reading-book-list-2014/</link>
+				<guid isPermaLink="true">http://localhost:4000/2014-01-01-reading-book-list-2014/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>傻瓜式博客搭建教程：使用GitHub Pages快速生成博客</title>
+				
+					<description>&lt;p&gt;关键词：&lt;strong&gt;Git+github+jekyll+.tk+DNS.LA+markdown&lt;/strong&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2013-10-02-blog-build-course/</link>
+				<guid isPermaLink="true">http://localhost:4000/2013-10-02-blog-build-course/</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>西南交大摄影集【一】</title>
+				
+					<description>&lt;p&gt;&lt;img src=&quot;https://ws2.sinaimg.cn/large/006tNbRwgy1fw2amm4lgrj30sg0ej13y.jpg&quot; alt=&quot;1&quot; /&gt;
+&lt;img src=&quot;https://ws1.sinaimg.cn/large/006tNbRwgy1fw2amo5d79j31950pennf.jpg&quot; alt=&quot;2&quot; /&gt;
+&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tNbRwgy1fw2amq1wqhj30sg11xnln.jpg&quot; alt=&quot;3&quot; /&gt;
+&lt;img src=&quot;https://ws3.sinaimg.cn/large/006tNbRwgy1fw2amr4x2bj30sg0j3trn.jpg&quot; alt=&quot;4&quot; /&gt;
+&lt;img src=&quot;https://ws2.sinaimg.cn/large/006tNbRwgy1fw2amvz8lxj30sg0izwyy.jpg&quot; alt=&quot;5&quot; /&gt;
+&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tNbRwgy1fw2amxob8wj30sg0izalp.jpg&quot; alt=&quot;6&quot; /&gt;
+&lt;img src=&quot;https://ws1.sinaimg.cn/large/006tNbRwgy1fw2amza9z4j30sg0iz1kx.jpg&quot; alt=&quot;7&quot; /&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2013-09-21-swjtu-photos/</link>
+				<guid isPermaLink="true">http://localhost:4000/2013-09-21-swjtu-photos/</guid>
+			</item>
+			
+		
+	</channel>
+</rss>

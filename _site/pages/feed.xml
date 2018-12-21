@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>吕立青的博客</title>
+		<description>想做产品，却误入程序世界爱上设计的摄影师。</description>		
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/pages/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Vue 应用单元测试的策略与实践 04 - Vuex 单元测试</title>
+				        
+				
+					<description>&lt;h2 id=&quot;本文的目标&quot;&gt;本文的目标&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-11-02-vue-application-unit-test-strategy-and-practice-04-testing-vuex/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-11-02-vue-application-unit-test-strategy-and-practice-04-testing-vuex/</guid>
+			</item>
+		
+			<item>
+				<title>Vue 应用单元测试的策略与实践 03 - Vue 组件单元测试</title>
+				        
+				
+					<description>&lt;h2 id=&quot;本文的目标&quot;&gt;本文的目标&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-10-30-vue-application-unit-test-strategy-and-practice-03-testing-vue-components/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-10-30-vue-application-unit-test-strategy-and-practice-03-testing-vue-components/</guid>
+			</item>
+		
+			<item>
+				<title>Vue 应用单元测试的策略与实践 02 - 单元测试基础</title>
+				        
+				
+					<description>&lt;h2 id=&quot;本文的目标&quot;&gt;本文的目标&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-10-29-vue-application-unit-test-strategy-and-practice-02-how-jest-work/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-10-29-vue-application-unit-test-strategy-and-practice-02-how-jest-work/</guid>
+			</item>
+		
+			<item>
+				<title>【译】（数字化）平台思维的艺术</title>
+				        
+				
+					<description>&lt;h1 id=&quot;the-art-of-platform-thinking--平台思维的艺术&quot;&gt;The Art of Platform Thinking | 平台思维的艺术&lt;/h1&gt;
+
+</description>
+				
+				<pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-10-09-the-art-of-platform-thinking-zh/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-10-09-the-art-of-platform-thinking-zh/</guid>
+			</item>
+		
+			<item>
+				<title>记一次 #博客大赛# 的作者采访</title>
+				        
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;在宝尊，#博客大赛#可以继续。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-09-28-interview-record-of-blog-contest-in-baozun/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-09-28-interview-record-of-blog-contest-in-baozun/</guid>
+			</item>
+		
+			<item>
+				<title>Vue 应用单元测试的策略与实践 01 - 前言</title>
+				        
+				
+					<description>&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-09-19-vue-application-unit-test-strategy-and-practice-01-introduction/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-09-19-vue-application-unit-test-strategy-and-practice-01-introduction/</guid>
+			</item>
+		
+			<item>
+				<title>融核π：碎片化信息时代的生存之道</title>
+				        
+				
+					<description>&lt;p&gt;[slide]&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-04-10-how-to-survive-in-the-age-of-fragmented-information/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-04-10-how-to-survive-in-the-age-of-fragmented-information/</guid>
+			</item>
+		
+			<item>
+				<title>【译】《React 学习之道》The Road to learn React (简体中文版) 最简单，且最实用的 React 实战教程</title>
+				        
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;通往 React 实战大师之旅：掌握 React 最简单，且最实用的教程。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2018-01-26-the-road-to-learn-react-chinese-translation/</link>
+				<guid isPermaLink="true">http://localhost:4000/2018-01-26-the-road-to-learn-react-chinese-translation/</guid>
+			</item>
+		
+			<item>
+				<title>技术雷达之「微前端」- 将微服务理念扩展到前端开发（上：理论篇）</title>
+				        
+				
+					<description>&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed/</guid>
+			</item>
+		
+			<item>
+				<title>技术雷达之「微前端」- 将微服务理念扩展到前端开发（下：实战篇）</title>
+				        
+				
+					<description>&lt;h2 id=&quot;前言与大纲&quot;&gt;前言与大纲&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed-next/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed-next/</guid>
+			</item>
+		
+			<item>
+				<title>「技术雷达」之 Micro Frontends：微前端 - 将微服务理念扩展到前端开发</title>
+				        
+				
+					<description>&lt;p&gt;[slide]&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-12-22-tech-radar-microfrontends-extending-microservice-to-fed/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-12-22-tech-radar-microfrontends-extending-microservice-to-fed/</guid>
+			</item>
+		
+			<item>
+				<title>Serverless 实战：打造个人阅读追踪系统</title>
+				        
+				
+					<description>&lt;h2 id=&quot;阅读习惯和个人知识管理体系&quot;&gt;阅读习惯和个人知识管理体系&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Fri, 30 Jun 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-06-30-serverless-in-action-build-personal-reading-statistics-system/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-06-30-serverless-in-action-build-personal-reading-statistics-system/</guid>
+			</item>
+		
+			<item>
+				<title>「技术雷达」之 PWA：Build Native-like Mobile Web App</title>
+				        
+				
+					<description>&lt;p&gt;[slide]&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-05-10-tech-radar-pwa-build-native-like-mobile-web-app/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-05-10-tech-radar-pwa-build-native-like-mobile-web-app/</guid>
+			</item>
+		
+			<item>
+				<title>幸运出差之旅：在墨尔本的 6 Weeks</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-04-16-lucky-business-trip-six-weeks-in-melbourne/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-04-16-lucky-business-trip-six-weeks-in-melbourne/</guid>
+			</item>
+		
+			<item>
+				<title>「React 系列 Workshop 01」之 Atomic Design with React</title>
+				        
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;nodeppt start -w&lt;/code&gt; by &lt;a href=&quot;https://github.com/ksky521/nodePPT&quot;&gt;ksky521/nodePPT&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-03-16-atomic-design-with-react-workshop-01/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-03-16-atomic-design-with-react-workshop-01/</guid>
+			</item>
+		
+			<item>
+				<title>《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？</title>
+				        
+				
+					<description>&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-02-20-gtd-best-practice-137/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-02-20-gtd-best-practice-137/</guid>
+			</item>
+		
+			<item>
+				<title>个人成长基础设施：纪念那些年我折腾过的各种…</title>
+				        
+				
+					<description>&lt;h2 id=&quot;硬件软件篇-121&quot;&gt;硬件&amp;amp;软件篇 &lt;a href=&quot;https://github.com/JimmyLv/jimmylv.github.io/issues/121&quot;&gt;#121&lt;/a&gt;&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-01-21-personal-growth-infrastructure/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-01-21-personal-growth-infrastructure/</guid>
+			</item>
+		
+			<item>
+				<title>微信小程序(1)：技术是如何服务于商业的？</title>
+				        
+				
+					<description>&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-01-10-wechat-app-with-business-and-technology-01/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-01-10-wechat-app-with-business-and-technology-01/</guid>
+			</item>
+		
+			<item>
+				<title>【译】整洁代码：JavaScript 当中的面向对象设计原则（S.O.L.I.D）</title>
+				        
+				
+					<description>&lt;p&gt;原文地址：&lt;a href=&quot;https://github.com/ryanmcdermott/clean-code-javascript#classes&quot;&gt;https://github.com/ryanmcdermott/clean-code-javascript#classes&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2017-01-08-clean-code-javascript-classes-design-principles/</link>
+				<guid isPermaLink="true">http://localhost:4000/2017-01-08-clean-code-javascript-classes-design-principles/</guid>
+			</item>
+		
+			<item>
+				<title>「技术雷达」之使用 Enzyme 测试 React（Native）组件</title>
+				        
+				
+					<description>&lt;h2 id=&quot;组件化与-ui-测试&quot;&gt;组件化与 UI 测试&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Wed, 07 Dec 2016 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/2016-12-07-react-testing-with-enzyme/</link>
+				<guid isPermaLink="true">http://localhost:4000/2016-12-07-react-testing-with-enzyme/</guid>
+			</item>
+		
+	</channel>
+</rss>

@@ -1,0 +1,3806 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<meta property="wb:webmaster" content="73ad5627d20a050d" />
+<title>Node PPT Markdown 演示（转） | 吕立青的博客</title>
+<meta name="author" content="吕立青">
+
+
+<link rel="shortcut icon" href="/public/img/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/public/css/css_backup.css">
+<link rel="stylesheet" href="/public/css/bootstrap.css">
+<link rel="stylesheet" href="/public/css/font-awesome.css">
+<link rel="stylesheet" href="/public/js/prettify/prettify.css">
+<link rel="stylesheet" href="/public/css/base.css">
+<link rel="stylesheet" href="/public/css/yue.css">
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/pages/atom.xml" rel="alternate" title="吕立青的博客" type="application/atom+xml">
+
+        <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Node PPT Markdown 演示（转） | 吕立青的博客</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Node PPT Markdown 演示（转）" />
+<meta name="author" content="吕立青" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="title: nodeppt markdown 演示 speaker: 三水清 url: https://github.com/ksky521/nodePPT transition: move files: /js/demo.js,/css/demo.css,/js/zoom.js theme: moon" />
+<meta property="og:description" content="title: nodeppt markdown 演示 speaker: 三水清 url: https://github.com/ksky521/nodePPT transition: move files: /js/demo.js,/css/demo.css,/js/zoom.js theme: moon" />
+<link rel="canonical" href="http://localhost:4000/2016-01-01-introduction-of-node-ppt/" />
+<meta property="og:url" content="http://localhost:4000/2016-01-01-introduction-of-node-ppt/" />
+<meta property="og:site_name" content="吕立青的博客" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-01-01T00:00:00+00:00" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"吕立青"},"description":"title: nodeppt markdown 演示 speaker: 三水清 url: https://github.com/ksky521/nodePPT transition: move files: /js/demo.js,/css/demo.css,/js/zoom.js theme: moon","headline":"Node PPT Markdown 演示（转）","dateModified":"2016-01-01T00:00:00+00:00","datePublished":"2016-01-01T00:00:00+00:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2016-01-01-introduction-of-node-ppt/"},"url":"http://localhost:4000/2016-01-01-introduction-of-node-ppt/","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+        <link rel="amphtml" href="https://mercury.postlight.com/amp?url=http://localhost:4000">
+        <script>
+        var _mtac = {};
+        (function() {
+            var mta = document.createElement("script");
+            mta.src = "https://pingjs.qq.com/h5/stats.js?v2.0.2";
+            mta.setAttribute("name", "MTAH5");
+            mta.setAttribute("sid", "500558031");
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(mta, s);
+        })();
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 aside visible-md visible-lg">
+  <div class="row navside">
+    <div class="col-md-3 col-xs-3 aside1">
+      <a class="pjaxlink" href="/"><img src="/public/img/gavatar.jpg" class="img-circle avatar"></a>
+      <ul class="nav nav-pills nav-stacked">
+        
+          <li><a href="#生活" data-toggle="tab">
+            <img class="nav-icon" src="/public/img/生活.svg">
+            <span class="nav-category">生活</span>
+          </a></li>
+        
+          <li><a href="#前端" data-toggle="tab">
+            <img class="nav-icon" src="/public/img/前端.svg">
+            <span class="nav-category">前端</span>
+          </a></li>
+        
+          <li><a href="#思考" data-toggle="tab">
+            <img class="nav-icon" src="/public/img/思考.svg">
+            <span class="nav-category">思考</span>
+          </a></li>
+        
+          <li><a href="#编程" data-toggle="tab">
+            <img class="nav-icon" src="/public/img/编程.svg">
+            <span class="nav-category">编程</span>
+          </a></li>
+        
+          <li><a href="#演讲" data-toggle="tab">
+            <img class="nav-icon" src="/public/img/演讲.svg">
+            <span class="nav-category">演讲</span>
+          </a></li>
+        
+        <hr style="margin: 0;"/>
+        <li><a class="pjaxlink" href="/pages/ideas/">
+          <img class="nav-icon" src="/public/img/想法.svg"><span class="nav-category"> 想法</span>
+        </a></li>
+        <li><a href="#tags" data-toggle="tab">
+          <img class="nav-icon" src="/public/img/标签.svg"><span class="nav-category"> 标签</span>
+        </a></li>  
+        <li><a class="pjaxlink" href="/pages/archive/">
+          <img class="nav-icon" src="/public/img/归档.svg"><span class="nav-category"> 归档</span>
+        </a></li>
+        <li><a class="pjaxlink" href="https://www.bing.com/search?q=site%3Ablog.jimmylv.info" target="_blank">
+          <img class="nav-icon" src="/public/img/搜索.svg"><span class="nav-category"> 搜索</span>
+        </a></li>
+        <li><a class="pjaxlink" href="/pages/about/">
+          <img class="nav-icon" src="/public/img/关于.svg"><span class="nav-category"> 关于</span>
+        </a></li>
+      </ul>
+      <div class="aside1_bottom">
+        <table class="table table-condensed">
+          <tr>
+            <td><a href="/pages/feed.xml" target="_blank"><i class="fa fa-rss fa-2x" style="color:#000;"></i></a></td>
+            <td><a href="mailto:lv460051518@gmail.com"><i class="fa fa-envelope-o fa-2x" style="color:#000;"></i></a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-9 col-xs-9 aside2">
+      <div class="row navside2">
+        <div class="tab-content"> 
+           
+            <div class="tab-pane" id="生活">
+              <div class="list-group">
+                
+                  <a href="/2017-04-16-lucky-business-trip-six-weeks-in-melbourne/" class="list-group-item-lay pjaxlink">幸运出差之旅：在墨尔本的 6 Weeks</a>
+                
+                  <a href="/2015-09-15-rails-girls-internal-version/" class="list-group-item-lay pjaxlink">看介里！Rails Girls成都站活动总结火热来袭~</a>
+                
+                  <a href="/2015-08-16-introduction-about-tagine/" class="list-group-item-lay pjaxlink">塔吉锅简介以及菜谱推荐</a>
+                
+                  <a href="/2015-07-23-wallpaper-by-liqing-01/" class="list-group-item-lay pjaxlink">吕立青拍的壁纸系列（一）</a>
+                
+                  <a href="/2015-05-23-wallpaper-by-liqing-02/" class="list-group-item-lay pjaxlink">吕立青拍的壁纸系列（二）</a>
+                
+                  <a href="/2014-11-17-swjtu-photos-02/" class="list-group-item-lay pjaxlink">西南交大摄影集【二】</a>
+                
+                  <a href="/2013-09-21-swjtu-photos/" class="list-group-item-lay pjaxlink">西南交大摄影集【一】</a>
+                
+              </div>
+            </div>
+           
+            <div class="tab-pane" id="前端">
+              <div class="list-group">
+                
+                  <a href="/2018-11-02-vue-application-unit-test-strategy-and-practice-04-testing-vuex/" class="list-group-item-lay pjaxlink">Vue 应用单元测试的策略与实践 04 - Vuex 单元测试</a>
+                
+                  <a href="/2018-10-30-vue-application-unit-test-strategy-and-practice-03-testing-vue-components/" class="list-group-item-lay pjaxlink">Vue 应用单元测试的策略与实践 03 - Vue 组件单元测试</a>
+                
+                  <a href="/2018-10-29-vue-application-unit-test-strategy-and-practice-02-how-jest-work/" class="list-group-item-lay pjaxlink">Vue 应用单元测试的策略与实践 02 - 单元测试基础</a>
+                
+                  <a href="/2018-09-19-vue-application-unit-test-strategy-and-practice-01-introduction/" class="list-group-item-lay pjaxlink">Vue 应用单元测试的策略与实践 01 - 前言</a>
+                
+                  <a href="/2018-01-26-the-road-to-learn-react-chinese-translation/" class="list-group-item-lay pjaxlink">【译】《React 学习之道》The Road to learn React (简体中文版) 最简单，且最实用的 React 实战教程</a>
+                
+                  <a href="/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed/" class="list-group-item-lay pjaxlink">技术雷达之「微前端」- 将微服务理念扩展到前端开发（上：理论篇）</a>
+                
+                  <a href="/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed-next/" class="list-group-item-lay pjaxlink">技术雷达之「微前端」- 将微服务理念扩展到前端开发（下：实战篇）</a>
+                
+                  <a href="/2017-01-10-wechat-app-with-business-and-technology-01/" class="list-group-item-lay pjaxlink">微信小程序(1)：技术是如何服务于商业的？</a>
+                
+                  <a href="/2017-01-08-clean-code-javascript-classes-design-principles/" class="list-group-item-lay pjaxlink">【译】整洁代码：JavaScript 当中的面向对象设计原则（S.O.L.I.D）</a>
+                
+                  <a href="/2016-12-07-react-testing-with-enzyme/" class="list-group-item-lay pjaxlink">「技术雷达」之使用 Enzyme 测试 React（Native）组件</a>
+                
+                  <a href="/2016-07-09-learning-aem/" class="list-group-item-lay pjaxlink">持续用户体验：Learning AEM</a>
+                
+                  <a href="/2016-07-07-what-the-flux-on-flux-ddd-and-cqrs/" class="list-group-item-lay pjaxlink">【译】什么是 Flux 架构？（兼谈 DDD 和 CQRS）</a>
+                
+                  <a href="/2016-07-04-rules-for-structuring-redux-applications/" class="list-group-item-lay pjaxlink">【译】Redux + React 应用程序架构的 3 条规范（内附实例）</a>
+                
+                  <a href="/2016-07-03-a-better-file-structure-for-react-redux-applications/" class="list-group-item-lay pjaxlink">【译】一种更好的 React/Redux 应用程序的文件目录结构</a>
+                
+                  <a href="/2016-06-10-thirteen-steps-to-a-faster-web-app/" class="list-group-item-lay pjaxlink">【译】唯快不破：Web 应用的 13 个优化步骤</a>
+                
+                  <a href="/2016-05-18-working-with-reactjs-in-webstorm/" class="list-group-item-lay pjaxlink">【译】在 Webstorm 中使用 ReactJS：编码辅助、代码规范、重构以及编译</a>
+                
+                  <a href="/2016-04-19-redux-and-the-command-pattern/" class="list-group-item-lay pjaxlink">【译】Redux 和 命令模式</a>
+                
+                  <a href="/2016-04-08-react-v15-the-big-and-great-latest-version/" class="list-group-item-lay pjaxlink">【译】Facebook 正式发布 ReactJS v15.0 稳定版</a>
+                
+                  <a href="/2016-03-13-webpack-in-action/" class="list-group-item-lay pjaxlink">搞定 Webpack (2)：使用 Webpack 大幅提升前端开发体验</a>
+                
+                  <a href="/2016-03-10-getting-webpack-done-and-js-module-history/" class="list-group-item-lay pjaxlink">搞定 Webpack (1)：前端模块化实践小史与 Webpack 入门</a>
+                
+                  <a href="/2016-03-08-introduction-of-angular-new-features-by-examples/" class="list-group-item-lay pjaxlink">升级 AngularJS 1.5：新特性对比与最佳实践</a>
+                
+                  <a href="/2016-02-21-Chinese-Version-of-React.js-Best-Practices-for-2016/" class="list-group-item-lay pjaxlink">【译】展望2016，React.js 最佳实践</a>
+                
+                  <a href="/2016-02-11-optimistic-ui-with-meteor/" class="list-group-item-lay pjaxlink">【译】使用 Meteor 构建「积极的用户界面」</a>
+                
+                  <a href="/2016-01-22-reactjs-best-practices-for-2016/" class="list-group-item-lay pjaxlink">【译】展望2016，React.js 最佳实践 (中英对照版)</a>
+                
+                  <a href="/2015-11-11-rethinking-about-front-end/" class="list-group-item-lay pjaxlink">关于前端的思考：Angular 2.0以及前后端边界</a>
+                
+                  <a href="/2015-11-10-reading-open-resource-code-from-github/" class="list-group-item-lay pjaxlink">GitHub开源项目源码十阅(1)：getAwesomeness</a>
+                
+                  <a href="/2015-09-27-reactjs_tutorial_part_4/" class="list-group-item-lay pjaxlink">【译】React.js教程 第四部分：Express路由</a>
+                
+                  <a href="/2015-08-22-reactjs_tutorial_part_interlude_2/" class="list-group-item-lay pjaxlink">【译】React.js教程 番外篇（二）：如何升级NPM依赖的版本</a>
+                
+                  <a href="/2015-07-30-reactjs_tutorial_part_3/" class="list-group-item-lay pjaxlink">【译】React.js教程 第三部分：一个真实的React组件</a>
+                
+                  <a href="/2015-06-22-reactjs_tutorial_part_interlude/" class="list-group-item-lay pjaxlink">【译】React.js教程 番外篇（一）：使用Bower包管理工具</a>
+                
+                  <a href="/2015-06-06-reactjs_tutorial_part_2/" class="list-group-item-lay pjaxlink">【译】React.js教程 第二部分：使用Gulp自动化构建工具</a>
+                
+                  <a href="/2015-05-31-reactjs_tutorial_part_1/" class="list-group-item-lay pjaxlink">【译】React.js教程 第一部分：Hello World!</a>
+                
+                  <a href="/2015-05-17-how-to-install-nodejs-correctly/" class="list-group-item-lay pjaxlink">Node.js的正确安装与相关工具（Mac OS X）</a>
+                
+                  <a href="/2015-05-14-learning-reactjs/" class="list-group-item-lay pjaxlink">React.js 复习笔记：组件组合与复用</a>
+                
+                  <a href="/2015-03-21-learning-react-js/" class="list-group-item-lay pjaxlink">React 学习笔记总结</a>
+                
+                  <a href="/2014-09-26-write-article-use-jekyll-github-markdown/" class="list-group-item-lay pjaxlink">写作环境的搭建（Jekyll+GitHub+Markdown）</a>
+                
+                  <a href="/2013-10-02-blog-build-course/" class="list-group-item-lay pjaxlink">傻瓜式博客搭建教程：使用GitHub Pages快速生成博客</a>
+                
+              </div>
+            </div>
+           
+            <div class="tab-pane" id="思考">
+              <div class="list-group">
+                
+                  <a href="/2018-10-09-the-art-of-platform-thinking-zh/" class="list-group-item-lay pjaxlink">【译】（数字化）平台思维的艺术</a>
+                
+                  <a href="/2018-09-28-interview-record-of-blog-contest-in-baozun/" class="list-group-item-lay pjaxlink">记一次 #博客大赛# 的作者采访</a>
+                
+                  <a href="/2017-02-20-gtd-best-practice-137/" class="list-group-item-lay pjaxlink">《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？</a>
+                
+                  <a href="/2017-01-21-personal-growth-infrastructure/" class="list-group-item-lay pjaxlink">个人成长基础设施：纪念那些年我折腾过的各种…</a>
+                
+                  <a href="/2016-12-04-agile-learning-based-on-github-issues/" class="list-group-item-lay pjaxlink">基于 GitHub 的敏捷学习方法之道与术</a>
+                
+                  <a href="/2016-11-19-input-and-output-of-PKM/" class="list-group-item-lay pjaxlink">渐进式知识管理：写作动机与分享的价值影响</a>
+                
+                  <a href="/2016-10-26-technology-make-world-better-place/" class="list-group-item-lay pjaxlink">小幸运：科技带来的持续感动</a>
+                
+                  <a href="/2016-09-16-sorting-out-knowledge-from-information/" class="list-group-item-lay pjaxlink">不断革新，不断改进：去伪存真的知识管理之路</a>
+                
+                  <a href="/2016-07-20-active-reading-the-art-of-annotation/" class="list-group-item-lay pjaxlink">【译】主动阅读：评注的艺术</a>
+                
+                  <a href="/2016-07-12-pkm-again-to-innovate-my-note-system/" class="list-group-item-lay pjaxlink">再谈个人知识管理：革新我的笔记系统</a>
+                
+                  <a href="/2016-07-10-speed-up-mac-efficiency/" class="list-group-item-lay pjaxlink">全面思考：Mac + iPhone 效率加速之战略篇 && 战术篇</a>
+                
+                  <a href="/2016-06-11-write-in-mac-os-x/" class="list-group-item-lay pjaxlink">敏捷写作：macOS 环境下写作系统的最优配置</a>
+                
+                  <a href="/2016-06-10-about-choice-time-and-attention/" class="list-group-item-lay pjaxlink">随笔：关于选择、时间和注意力</a>
+                
+                  <a href="/2015-10-31-mission-control-on-mac-os-x/" class="list-group-item-lay pjaxlink">从需求出发：再谈 macOS 下的 Mission Control</a>
+                
+                  <a href="/2015-10-30-productivity-and-pressure/" class="list-group-item-lay pjaxlink">谈谈效率：工作与生活、压力与负担</a>
+                
+                  <a href="/2015-10-09-three-types-of-knowledge/" class="list-group-item-lay pjaxlink">个人知识管理：知识的三种形态</a>
+                
+                  <a href="/2015-09-20-recent-plan-focus/" class="list-group-item-lay pjaxlink">随想：没有比这更好的状态</a>
+                
+                  <a href="/2015-09-05-periodically-anxiety/" class="list-group-item-lay pjaxlink">周期性大姨夫：一篇关于梦想和生活的咆哮</a>
+                
+                  <a href="/2015-08-01-reading-book-list-2015/" class="list-group-item-lay pjaxlink">2015年阅读书单</a>
+                
+                  <a href="/2015-07-25-about-people-in-tw/" class="list-group-item-lay pjaxlink">记一次对话：自我与环境以及环境中的人</a>
+                
+                  <a href="/2015-07-22-difference-between-blog-and-note/" class="list-group-item-lay pjaxlink">安利 GitBook：兼谈笔记与博客的区别</a>
+                
+                  <a href="/2015-05-27-new-state-in-library/" class="list-group-item-lay pjaxlink">出走寝室：在图书馆的所思所想</a>
+                
+                  <a href="/2015-05-12-intellectual-and-single-entrance/" class="list-group-item-lay pjaxlink">由写作环境引发的反思：单一入口的智能化</a>
+                
+                  <a href="/2015-02-12-internet-learning-better-than-reading-book/" class="list-group-item-lay pjaxlink">读万卷书不如行万里路，行万里路不如互联网学习</a>
+                
+                  <a href="/2014-11-16-think-college-1/" class="list-group-item-lay pjaxlink">「反思我的大学」之科学与技术</a>
+                
+                  <a href="/2014-11-01-why-i-am-so-serious/" class="list-group-item-lay pjaxlink">突然明白自己的焦虑来自何处</a>
+                
+                  <a href="/2014-01-01-reading-book-list-2014/" class="list-group-item-lay pjaxlink">2014年阅读书单</a>
+                
+              </div>
+            </div>
+           
+            <div class="tab-pane" id="编程">
+              <div class="list-group">
+                
+                  <a href="/2017-06-30-serverless-in-action-build-personal-reading-statistics-system/" class="list-group-item-lay pjaxlink">Serverless 实战：打造个人阅读追踪系统</a>
+                
+                  <a href="/2016-08-17-linux-shell-workshop-note/" class="list-group-item-lay pjaxlink">WorkShop 笔记：Linux shell 命令密室逃脱之旅</a>
+                
+                  <a href="/2016-06-24-learning-java/" class="list-group-item-lay pjaxlink">Python 基础如何学习 Java</a>
+                
+                  <a href="/2015-11-16-how-to-use-gradle-and-speed-up-build-time/" class="list-group-item-lay pjaxlink">使用 Gradle 快速构建项目以及 Gradle 速度优化</a>
+                
+                  <a href="/2015-11-11-what-is-really-rest/" class="list-group-item-lay pjaxlink">什么才是真正的 RESTful 架构？</a>
+                
+                  <a href="/2015-09-23-crawler-using-python/" class="list-group-item-lay pjaxlink">一个知识清单：如何学习Python爬虫</a>
+                
+                  <a href="/2015-09-21-better-java-zh/" class="list-group-item-lay pjaxlink">【译】Better Java 中英对照译本</a>
+                
+                  <a href="/2015-08-25-using_microservices_to_build_cloud_native_applications__part_1/" class="list-group-item-lay pjaxlink">【译】使用微服务构建原生云端应用 - 第一部分</a>
+                
+                  <a href="/2015-08-23-developing_a_restful_web_service_using_spring_boot/" class="list-group-item-lay pjaxlink">【译】使用Spring Boot开发RESTful Web服务</a>
+                
+                  <a href="/2015-07-26-learning-microservices/" class="list-group-item-lay pjaxlink">Microservices 最佳实践之路</a>
+                
+                  <a href="/2015-04-29-fight-with-gfw/" class="list-group-item-lay pjaxlink">关于不同翻墙软件：GoAgent和ShadowSocks</a>
+                
+                  <a href="/2015-03-01-python-guide-zh/" class="list-group-item-lay pjaxlink">【译】The Hitchhiker’s Guide to Python! 中英对照译本</a>
+                
+                  <a href="/2015-01-17-python-guide-e2c-plan/" class="list-group-item-lay pjaxlink">【译】The Hitchhiker’s Guide to Python! 中英对照译本</a>
+                
+                  <a href="/2014-11-17-python-to-java-01/" class="list-group-item-lay pjaxlink">Python基础如何学习Java：如何开始学习一门新语言</a>
+                
+                  <a href="/2014-11-16-linux-text-editor/" class="list-group-item-lay pjaxlink">Ubuntu下的几种命令行编辑器介绍</a>
+                
+                  <a href="/2014-11-15-pythonic-zen/" class="list-group-item-lay pjaxlink">The Zen of Python：Python之禅</a>
+                
+                  <a href="/2014-09-28-Linux-apt-get/" class="list-group-item-lay pjaxlink">Ubuntu下的程序安装与卸载</a>
+                
+                  <a href="/2014-09-27-Linux-file-and-dir/" class="list-group-item-lay pjaxlink">Ubuntu系统快捷键和文件处理命令</a>
+                
+                  <a href="/2014-09-26-setting-sublime-for-python/" class="list-group-item-lay pjaxlink">配置Python开发环境和Sublime Text 3编辑器</a>
+                
+                  <a href="/2014-09-25-use-git-and-github/" class="list-group-item-lay pjaxlink">Git安装笔记与如何连接GitHub远程仓库</a>
+                
+                  <a href="/2014-09-25-how-to-install-and-config-ubuntu/" class="list-group-item-lay pjaxlink">Ubuntu系统的安装与优化</a>
+                
+                  <a href="/2014-09-25-begin-ruby-with-rubymine/" class="list-group-item-lay pjaxlink">Ruby入门：环境的搭建与RubyMine的安装</a>
+                
+              </div>
+            </div>
+           
+            <div class="tab-pane" id="演讲">
+              <div class="list-group">
+                
+                  <a href="/2018-04-10-how-to-survive-in-the-age-of-fragmented-information/" class="list-group-item-lay pjaxlink">融核π：碎片化信息时代的生存之道</a>
+                
+                  <a href="/2017-12-22-tech-radar-microfrontends-extending-microservice-to-fed/" class="list-group-item-lay pjaxlink">「技术雷达」之 Micro Frontends：微前端 - 将微服务理念扩展到前端开发</a>
+                
+                  <a href="/2017-05-10-tech-radar-pwa-build-native-like-mobile-web-app/" class="list-group-item-lay pjaxlink">「技术雷达」之 PWA：Build Native-like Mobile Web App</a>
+                
+                  <a href="/2017-03-16-atomic-design-with-react-workshop-01/" class="list-group-item-lay pjaxlink">「React 系列 Workshop 01」之 Atomic Design with React</a>
+                
+                  <a href="/2016-11-30-tech-radar-react-testing-with-enzyme/" class="list-group-item-lay pjaxlink">「技术雷达」之 React (Native) Testing with Enzyme</a>
+                
+                  <a href="/2016-09-18-jsconf-summary-feature-team-and-developer-experience/" class="list-group-item-lay pjaxlink">JSConf 2016 (Ning)</a>
+                
+                  <a href="/2016-07-28-adobe-aem-101-overview/" class="list-group-item-lay pjaxlink">Adobe AEM 101 Overview</a>
+                
+                  <a href="/2016-03-28-js-moudle-history-and-webpack-in-action/" class="list-group-item-lay pjaxlink">前端模块化小史，Webpack 入门</a>
+                
+                  <a href="/2016-02-16-rethink-angularjs-in-action/" class="list-group-item-lay pjaxlink">Rethink AngularJS in Action</a>
+                
+                  <a href="/2016-01-01-introduction-of-node-ppt/" class="list-group-item-lay pjaxlink">Node PPT Markdown 演示（转）</a>
+                
+                  <a href="/2015-12-10-spring-mvc-in-action/" class="list-group-item-lay pjaxlink">思沃讲堂：Spring MVC 实战</a>
+                
+                  <a href="/2015-12-08-rest-in-action/" class="list-group-item-lay pjaxlink">REST IN ACTION</a>
+                
+                  <a href="/2015-11-02-history-about-web-development-evolution/" class="list-group-item-lay pjaxlink">Web 前端开发模式演变</a>
+                
+                  <a href="/2015-08-29-personal-knowledge-management/" class="list-group-item-lay pjaxlink">PKM：个人知识管理</a>
+                
+                  <a href="/2014-10-27-thoughtworks-interview-speech/" class="list-group-item-lay pjaxlink">ThoughtWorks 面试演讲稿</a>
+                
+              </div>
+            </div>
+                
+          <div class="tab-pane" id="tags">
+            <div class="panel-group" id="accordion">
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#大学">大学</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="大学" class="panel-collapse collapse">
+                    
+                      <a  href='/2014-11-17-swjtu-photos-02/' class="list-group-item pjaxlink">
+                        西南交大摄影集【二】
+                      </a>
+                    
+                      <a  href='/2014-11-16-think-college-1/' class="list-group-item pjaxlink">
+                        「反思我的大学」之科学与技术
+                      </a>
+                    
+                      <a  href='/2013-09-21-swjtu-photos/' class="list-group-item pjaxlink">
+                        西南交大摄影集【一】
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#摄影">摄影</a>
+                      <span class="badge pull-right">5</span>
+                    </h4>
+                  </div>
+                  <div id="摄影" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-09-15-rails-girls-internal-version/' class="list-group-item pjaxlink">
+                        看介里！Rails Girls成都站活动总结火热来袭~
+                      </a>
+                    
+                      <a  href='/2015-07-23-wallpaper-by-liqing-01/' class="list-group-item pjaxlink">
+                        吕立青拍的壁纸系列（一）
+                      </a>
+                    
+                      <a  href='/2015-05-23-wallpaper-by-liqing-02/' class="list-group-item pjaxlink">
+                        吕立青拍的壁纸系列（二）
+                      </a>
+                    
+                      <a  href='/2014-11-17-swjtu-photos-02/' class="list-group-item pjaxlink">
+                        西南交大摄影集【二】
+                      </a>
+                    
+                      <a  href='/2013-09-21-swjtu-photos/' class="list-group-item pjaxlink">
+                        西南交大摄影集【一】
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#母校">母校</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="母校" class="panel-collapse collapse">
+                    
+                      <a  href='/2013-09-21-swjtu-photos/' class="list-group-item pjaxlink">
+                        西南交大摄影集【一】
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Git">Git</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="Git" class="panel-collapse collapse">
+                    
+                      <a  href='/2014-09-26-write-article-use-jekyll-github-markdown/' class="list-group-item pjaxlink">
+                        写作环境的搭建（Jekyll+GitHub+Markdown）
+                      </a>
+                    
+                      <a  href='/2014-09-25-use-git-and-github/' class="list-group-item pjaxlink">
+                        Git安装笔记与如何连接GitHub远程仓库
+                      </a>
+                    
+                      <a  href='/2013-10-02-blog-build-course/' class="list-group-item pjaxlink">
+                        傻瓜式博客搭建教程：使用GitHub Pages快速生成博客
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Jekyll">Jekyll</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="Jekyll" class="panel-collapse collapse">
+                    
+                      <a  href='/2014-09-26-write-article-use-jekyll-github-markdown/' class="list-group-item pjaxlink">
+                        写作环境的搭建（Jekyll+GitHub+Markdown）
+                      </a>
+                    
+                      <a  href='/2013-10-02-blog-build-course/' class="list-group-item pjaxlink">
+                        傻瓜式博客搭建教程：使用GitHub Pages快速生成博客
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#阅读">阅读</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="阅读" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-20-active-reading-the-art-of-annotation/' class="list-group-item pjaxlink">
+                        【译】主动阅读：评注的艺术
+                      </a>
+                    
+                      <a  href='/2015-08-01-reading-book-list-2015/' class="list-group-item pjaxlink">
+                        2015年阅读书单
+                      </a>
+                    
+                      <a  href='/2014-01-01-reading-book-list-2014/' class="list-group-item pjaxlink">
+                        2014年阅读书单
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#书籍">书籍</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="书籍" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-08-01-reading-book-list-2015/' class="list-group-item pjaxlink">
+                        2015年阅读书单
+                      </a>
+                    
+                      <a  href='/2014-01-01-reading-book-list-2014/' class="list-group-item pjaxlink">
+                        2014年阅读书单
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Ruby">Ruby</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Ruby" class="panel-collapse collapse">
+                    
+                      <a  href='/2014-09-25-begin-ruby-with-rubymine/' class="list-group-item pjaxlink">
+                        Ruby入门：环境的搭建与RubyMine的安装
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Ubuntu">Ubuntu</a>
+                      <span class="badge pull-right">6</span>
+                    </h4>
+                  </div>
+                  <div id="Ubuntu" class="panel-collapse collapse">
+                    
+                      <a  href='/2014-11-16-linux-text-editor/' class="list-group-item pjaxlink">
+                        Ubuntu下的几种命令行编辑器介绍
+                      </a>
+                    
+                      <a  href='/2014-09-28-Linux-apt-get/' class="list-group-item pjaxlink">
+                        Ubuntu下的程序安装与卸载
+                      </a>
+                    
+                      <a  href='/2014-09-27-Linux-file-and-dir/' class="list-group-item pjaxlink">
+                        Ubuntu系统快捷键和文件处理命令
+                      </a>
+                    
+                      <a  href='/2014-09-26-setting-sublime-for-python/' class="list-group-item pjaxlink">
+                        配置Python开发环境和Sublime Text 3编辑器
+                      </a>
+                    
+                      <a  href='/2014-09-25-use-git-and-github/' class="list-group-item pjaxlink">
+                        Git安装笔记与如何连接GitHub远程仓库
+                      </a>
+                    
+                      <a  href='/2014-09-25-how-to-install-and-config-ubuntu/' class="list-group-item pjaxlink">
+                        Ubuntu系统的安装与优化
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#OS">OS</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="OS" class="panel-collapse collapse">
+                    
+                      <a  href='/2014-09-25-how-to-install-and-config-ubuntu/' class="list-group-item pjaxlink">
+                        Ubuntu系统的安装与优化
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#写作">写作</a>
+                      <span class="badge pull-right">8</span>
+                    </h4>
+                  </div>
+                  <div id="写作" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-09-28-interview-record-of-blog-contest-in-baozun/' class="list-group-item pjaxlink">
+                        记一次 #博客大赛# 的作者采访
+                      </a>
+                    
+                      <a  href='/2016-07-10-speed-up-mac-efficiency/' class="list-group-item pjaxlink">
+                        全面思考：Mac + iPhone 效率加速之战略篇 && 战术篇
+                      </a>
+                    
+                      <a  href='/2016-06-11-write-in-mac-os-x/' class="list-group-item pjaxlink">
+                        敏捷写作：macOS 环境下写作系统的最优配置
+                      </a>
+                    
+                      <a  href='/2015-10-30-productivity-and-pressure/' class="list-group-item pjaxlink">
+                        谈谈效率：工作与生活、压力与负担
+                      </a>
+                    
+                      <a  href='/2015-07-22-difference-between-blog-and-note/' class="list-group-item pjaxlink">
+                        安利 GitBook：兼谈笔记与博客的区别
+                      </a>
+                    
+                      <a  href='/2015-05-27-new-state-in-library/' class="list-group-item pjaxlink">
+                        出走寝室：在图书馆的所思所想
+                      </a>
+                    
+                      <a  href='/2015-05-12-intellectual-and-single-entrance/' class="list-group-item pjaxlink">
+                        由写作环境引发的反思：单一入口的智能化
+                      </a>
+                    
+                      <a  href='/2014-09-26-write-article-use-jekyll-github-markdown/' class="list-group-item pjaxlink">
+                        写作环境的搭建（Jekyll+GitHub+Markdown）
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Sublime">Sublime</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="Sublime" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-05-12-intellectual-and-single-entrance/' class="list-group-item pjaxlink">
+                        由写作环境引发的反思：单一入口的智能化
+                      </a>
+                    
+                      <a  href='/2014-09-26-setting-sublime-for-python/' class="list-group-item pjaxlink">
+                        配置Python开发环境和Sublime Text 3编辑器
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Python">Python</a>
+                      <span class="badge pull-right">7</span>
+                    </h4>
+                  </div>
+                  <div id="Python" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-10-26-technology-make-world-better-place/' class="list-group-item pjaxlink">
+                        小幸运：科技带来的持续感动
+                      </a>
+                    
+                      <a  href='/2016-06-24-learning-java/' class="list-group-item pjaxlink">
+                        Python 基础如何学习 Java
+                      </a>
+                    
+                      <a  href='/2015-09-23-crawler-using-python/' class="list-group-item pjaxlink">
+                        一个知识清单：如何学习Python爬虫
+                      </a>
+                    
+                      <a  href='/2015-01-17-python-guide-e2c-plan/' class="list-group-item pjaxlink">
+                        【译】The Hitchhiker’s Guide to Python! 中英对照译本
+                      </a>
+                    
+                      <a  href='/2014-11-17-python-to-java-01/' class="list-group-item pjaxlink">
+                        Python基础如何学习Java：如何开始学习一门新语言
+                      </a>
+                    
+                      <a  href='/2014-11-15-pythonic-zen/' class="list-group-item pjaxlink">
+                        The Zen of Python：Python之禅
+                      </a>
+                    
+                      <a  href='/2014-09-26-setting-sublime-for-python/' class="list-group-item pjaxlink">
+                        配置Python开发环境和Sublime Text 3编辑器
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#软件">软件</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="软件" class="panel-collapse collapse">
+                    
+                      <a  href='/2014-09-28-Linux-apt-get/' class="list-group-item pjaxlink">
+                        Ubuntu下的程序安装与卸载
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#面试">面试</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="面试" class="panel-collapse collapse">
+                    
+                      <a  href='/2014-10-27-thoughtworks-interview-speech/' class="list-group-item pjaxlink">
+                        ThoughtWorks 面试演讲稿
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#工作">工作</a>
+                      <span class="badge pull-right">5</span>
+                    </h4>
+                  </div>
+                  <div id="工作" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-10-30-productivity-and-pressure/' class="list-group-item pjaxlink">
+                        谈谈效率：工作与生活、压力与负担
+                      </a>
+                    
+                      <a  href='/2015-09-20-recent-plan-focus/' class="list-group-item pjaxlink">
+                        随想：没有比这更好的状态
+                      </a>
+                    
+                      <a  href='/2015-07-25-about-people-in-tw/' class="list-group-item pjaxlink">
+                        记一次对话：自我与环境以及环境中的人
+                      </a>
+                    
+                      <a  href='/2014-11-01-why-i-am-so-serious/' class="list-group-item pjaxlink">
+                        突然明白自己的焦虑来自何处
+                      </a>
+                    
+                      <a  href='/2014-10-27-thoughtworks-interview-speech/' class="list-group-item pjaxlink">
+                        ThoughtWorks 面试演讲稿
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#CleanCode">CleanCode</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="CleanCode" class="panel-collapse collapse">
+                    
+                      <a  href='/2014-11-15-pythonic-zen/' class="list-group-item pjaxlink">
+                        The Zen of Python：Python之禅
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Rethink">Rethink</a>
+                      <span class="badge pull-right">9</span>
+                    </h4>
+                  </div>
+                  <div id="Rethink" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-10-09-the-art-of-platform-thinking-zh/' class="list-group-item pjaxlink">
+                        【译】（数字化）平台思维的艺术
+                      </a>
+                    
+                      <a  href='/2018-09-28-interview-record-of-blog-contest-in-baozun/' class="list-group-item pjaxlink">
+                        记一次 #博客大赛# 的作者采访
+                      </a>
+                    
+                      <a  href='/2016-09-16-sorting-out-knowledge-from-information/' class="list-group-item pjaxlink">
+                        不断革新，不断改进：去伪存真的知识管理之路
+                      </a>
+                    
+                      <a  href='/2016-07-12-pkm-again-to-innovate-my-note-system/' class="list-group-item pjaxlink">
+                        再谈个人知识管理：革新我的笔记系统
+                      </a>
+                    
+                      <a  href='/2016-02-16-rethink-angularjs-in-action/' class="list-group-item pjaxlink">
+                        Rethink AngularJS in Action
+                      </a>
+                    
+                      <a  href='/2015-11-02-history-about-web-development-evolution/' class="list-group-item pjaxlink">
+                        Web 前端开发模式演变
+                      </a>
+                    
+                      <a  href='/2015-05-14-learning-reactjs/' class="list-group-item pjaxlink">
+                        React.js 复习笔记：组件组合与复用
+                      </a>
+                    
+                      <a  href='/2015-02-12-internet-learning-better-than-reading-book/' class="list-group-item pjaxlink">
+                        读万卷书不如行万里路，行万里路不如互联网学习
+                      </a>
+                    
+                      <a  href='/2014-11-16-think-college-1/' class="list-group-item pjaxlink">
+                        「反思我的大学」之科学与技术
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Java">Java</a>
+                      <span class="badge pull-right">6</span>
+                    </h4>
+                  </div>
+                  <div id="Java" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-28-adobe-aem-101-overview/' class="list-group-item pjaxlink">
+                        Adobe AEM 101 Overview
+                      </a>
+                    
+                      <a  href='/2016-07-09-learning-aem/' class="list-group-item pjaxlink">
+                        持续用户体验：Learning AEM
+                      </a>
+                    
+                      <a  href='/2016-06-24-learning-java/' class="list-group-item pjaxlink">
+                        Python 基础如何学习 Java
+                      </a>
+                    
+                      <a  href='/2015-09-21-better-java-zh/' class="list-group-item pjaxlink">
+                        【译】Better Java 中英对照译本
+                      </a>
+                    
+                      <a  href='/2015-03-01-python-guide-zh/' class="list-group-item pjaxlink">
+                        【译】The Hitchhiker’s Guide to Python! 中英对照译本
+                      </a>
+                    
+                      <a  href='/2014-11-17-python-to-java-01/' class="list-group-item pjaxlink">
+                        Python基础如何学习Java：如何开始学习一门新语言
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#编程语言">编程语言</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="编程语言" class="panel-collapse collapse">
+                    
+                      <a  href='/2014-11-17-python-to-java-01/' class="list-group-item pjaxlink">
+                        Python基础如何学习Java：如何开始学习一门新语言
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#互联网">互联网</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="互联网" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-06-10-about-choice-time-and-attention/' class="list-group-item pjaxlink">
+                        随笔：关于选择、时间和注意力
+                      </a>
+                    
+                      <a  href='/2015-10-09-three-types-of-knowledge/' class="list-group-item pjaxlink">
+                        个人知识管理：知识的三种形态
+                      </a>
+                    
+                      <a  href='/2015-02-12-internet-learning-better-than-reading-book/' class="list-group-item pjaxlink">
+                        读万卷书不如行万里路，行万里路不如互联网学习
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#总结">总结</a>
+                      <span class="badge pull-right">5</span>
+                    </h4>
+                  </div>
+                  <div id="总结" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-09-learning-aem/' class="list-group-item pjaxlink">
+                        持续用户体验：Learning AEM
+                      </a>
+                    
+                      <a  href='/2016-06-24-learning-java/' class="list-group-item pjaxlink">
+                        Python 基础如何学习 Java
+                      </a>
+                    
+                      <a  href='/2016-02-21-Chinese-Version-of-React.js-Best-Practices-for-2016/' class="list-group-item pjaxlink">
+                        【译】展望2016，React.js 最佳实践
+                      </a>
+                    
+                      <a  href='/2016-01-22-reactjs-best-practices-for-2016/' class="list-group-item pjaxlink">
+                        【译】展望2016，React.js 最佳实践 (中英对照版)
+                      </a>
+                    
+                      <a  href='/2015-02-12-internet-learning-better-than-reading-book/' class="list-group-item pjaxlink">
+                        读万卷书不如行万里路，行万里路不如互联网学习
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#学习">学习</a>
+                      <span class="badge pull-right">11</span>
+                    </h4>
+                  </div>
+                  <div id="学习" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-12-04-agile-learning-based-on-github-issues/' class="list-group-item pjaxlink">
+                        基于 GitHub 的敏捷学习方法之道与术
+                      </a>
+                    
+                      <a  href='/2016-11-19-input-and-output-of-PKM/' class="list-group-item pjaxlink">
+                        渐进式知识管理：写作动机与分享的价值影响
+                      </a>
+                    
+                      <a  href='/2016-10-26-technology-make-world-better-place/' class="list-group-item pjaxlink">
+                        小幸运：科技带来的持续感动
+                      </a>
+                    
+                      <a  href='/2016-09-16-sorting-out-knowledge-from-information/' class="list-group-item pjaxlink">
+                        不断革新，不断改进：去伪存真的知识管理之路
+                      </a>
+                    
+                      <a  href='/2016-07-20-active-reading-the-art-of-annotation/' class="list-group-item pjaxlink">
+                        【译】主动阅读：评注的艺术
+                      </a>
+                    
+                      <a  href='/2016-07-12-pkm-again-to-innovate-my-note-system/' class="list-group-item pjaxlink">
+                        再谈个人知识管理：革新我的笔记系统
+                      </a>
+                    
+                      <a  href='/2016-07-10-speed-up-mac-efficiency/' class="list-group-item pjaxlink">
+                        全面思考：Mac + iPhone 效率加速之战略篇 && 战术篇
+                      </a>
+                    
+                      <a  href='/2016-06-11-write-in-mac-os-x/' class="list-group-item pjaxlink">
+                        敏捷写作：macOS 环境下写作系统的最优配置
+                      </a>
+                    
+                      <a  href='/2015-08-29-personal-knowledge-management/' class="list-group-item pjaxlink">
+                        PKM：个人知识管理
+                      </a>
+                    
+                      <a  href='/2015-07-25-about-people-in-tw/' class="list-group-item pjaxlink">
+                        记一次对话：自我与环境以及环境中的人
+                      </a>
+                    
+                      <a  href='/2015-02-12-internet-learning-better-than-reading-book/' class="list-group-item pjaxlink">
+                        读万卷书不如行万里路，行万里路不如互联网学习
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#PKM">PKM</a>
+                      <span class="badge pull-right">10</span>
+                    </h4>
+                  </div>
+                  <div id="PKM" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-09-28-interview-record-of-blog-contest-in-baozun/' class="list-group-item pjaxlink">
+                        记一次 #博客大赛# 的作者采访
+                      </a>
+                    
+                      <a  href='/2018-04-10-how-to-survive-in-the-age-of-fragmented-information/' class="list-group-item pjaxlink">
+                        融核π：碎片化信息时代的生存之道
+                      </a>
+                    
+                      <a  href='/2017-06-30-serverless-in-action-build-personal-reading-statistics-system/' class="list-group-item pjaxlink">
+                        Serverless 实战：打造个人阅读追踪系统
+                      </a>
+                    
+                      <a  href='/2016-11-19-input-and-output-of-PKM/' class="list-group-item pjaxlink">
+                        渐进式知识管理：写作动机与分享的价值影响
+                      </a>
+                    
+                      <a  href='/2016-09-16-sorting-out-knowledge-from-information/' class="list-group-item pjaxlink">
+                        不断革新，不断改进：去伪存真的知识管理之路
+                      </a>
+                    
+                      <a  href='/2016-07-12-pkm-again-to-innovate-my-note-system/' class="list-group-item pjaxlink">
+                        再谈个人知识管理：革新我的笔记系统
+                      </a>
+                    
+                      <a  href='/2016-06-11-write-in-mac-os-x/' class="list-group-item pjaxlink">
+                        敏捷写作：macOS 环境下写作系统的最优配置
+                      </a>
+                    
+                      <a  href='/2015-10-09-three-types-of-knowledge/' class="list-group-item pjaxlink">
+                        个人知识管理：知识的三种形态
+                      </a>
+                    
+                      <a  href='/2015-08-29-personal-knowledge-management/' class="list-group-item pjaxlink">
+                        PKM：个人知识管理
+                      </a>
+                    
+                      <a  href='/2015-02-12-internet-learning-better-than-reading-book/' class="list-group-item pjaxlink">
+                        读万卷书不如行万里路，行万里路不如互联网学习
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#翻译">翻译</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="翻译" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-09-21-better-java-zh/' class="list-group-item pjaxlink">
+                        【译】Better Java 中英对照译本
+                      </a>
+                    
+                      <a  href='/2015-03-01-python-guide-zh/' class="list-group-item pjaxlink">
+                        【译】The Hitchhiker’s Guide to Python! 中英对照译本
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#GitBook">GitBook</a>
+                      <span class="badge pull-right">4</span>
+                    </h4>
+                  </div>
+                  <div id="GitBook" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-09-21-better-java-zh/' class="list-group-item pjaxlink">
+                        【译】Better Java 中英对照译本
+                      </a>
+                    
+                      <a  href='/2015-07-26-learning-microservices/' class="list-group-item pjaxlink">
+                        Microservices 最佳实践之路
+                      </a>
+                    
+                      <a  href='/2015-03-21-learning-react-js/' class="list-group-item pjaxlink">
+                        React 学习笔记总结
+                      </a>
+                    
+                      <a  href='/2015-03-01-python-guide-zh/' class="list-group-item pjaxlink">
+                        【译】The Hitchhiker’s Guide to Python! 中英对照译本
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#最佳实践">最佳实践</a>
+                      <span class="badge pull-right">5</span>
+                    </h4>
+                  </div>
+                  <div id="最佳实践" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-02-20-gtd-best-practice-137/' class="list-group-item pjaxlink">
+                        《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？
+                      </a>
+                    
+                      <a  href='/2016-02-21-Chinese-Version-of-React.js-Best-Practices-for-2016/' class="list-group-item pjaxlink">
+                        【译】展望2016，React.js 最佳实践
+                      </a>
+                    
+                      <a  href='/2015-09-21-better-java-zh/' class="list-group-item pjaxlink">
+                        【译】Better Java 中英对照译本
+                      </a>
+                    
+                      <a  href='/2015-07-26-learning-microservices/' class="list-group-item pjaxlink">
+                        Microservices 最佳实践之路
+                      </a>
+                    
+                      <a  href='/2015-03-01-python-guide-zh/' class="list-group-item pjaxlink">
+                        【译】The Hitchhiker’s Guide to Python! 中英对照译本
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#React">React</a>
+                      <span class="badge pull-right">23</span>
+                    </h4>
+                  </div>
+                  <div id="React" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-01-26-the-road-to-learn-react-chinese-translation/' class="list-group-item pjaxlink">
+                        【译】《React 学习之道》The Road to learn React (简体中文版) 最简单，且最实用的 React 实战教程
+                      </a>
+                    
+                      <a  href='/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed/' class="list-group-item pjaxlink">
+                        技术雷达之「微前端」- 将微服务理念扩展到前端开发（上：理论篇）
+                      </a>
+                    
+                      <a  href='/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed-next/' class="list-group-item pjaxlink">
+                        技术雷达之「微前端」- 将微服务理念扩展到前端开发（下：实战篇）
+                      </a>
+                    
+                      <a  href='/2017-12-22-tech-radar-microfrontends-extending-microservice-to-fed/' class="list-group-item pjaxlink">
+                        「技术雷达」之 Micro Frontends：微前端 - 将微服务理念扩展到前端开发
+                      </a>
+                    
+                      <a  href='/2017-03-16-atomic-design-with-react-workshop-01/' class="list-group-item pjaxlink">
+                        「React 系列 Workshop 01」之 Atomic Design with React
+                      </a>
+                    
+                      <a  href='/2016-12-07-react-testing-with-enzyme/' class="list-group-item pjaxlink">
+                        「技术雷达」之使用 Enzyme 测试 React（Native）组件
+                      </a>
+                    
+                      <a  href='/2016-11-30-tech-radar-react-testing-with-enzyme/' class="list-group-item pjaxlink">
+                        「技术雷达」之 React (Native) Testing with Enzyme
+                      </a>
+                    
+                      <a  href='/2016-07-04-rules-for-structuring-redux-applications/' class="list-group-item pjaxlink">
+                        【译】Redux + React 应用程序架构的 3 条规范（内附实例）
+                      </a>
+                    
+                      <a  href='/2016-07-03-a-better-file-structure-for-react-redux-applications/' class="list-group-item pjaxlink">
+                        【译】一种更好的 React/Redux 应用程序的文件目录结构
+                      </a>
+                    
+                      <a  href='/2016-05-18-working-with-reactjs-in-webstorm/' class="list-group-item pjaxlink">
+                        【译】在 Webstorm 中使用 ReactJS：编码辅助、代码规范、重构以及编译
+                      </a>
+                    
+                      <a  href='/2016-04-19-redux-and-the-command-pattern/' class="list-group-item pjaxlink">
+                        【译】Redux 和 命令模式
+                      </a>
+                    
+                      <a  href='/2016-04-08-react-v15-the-big-and-great-latest-version/' class="list-group-item pjaxlink">
+                        【译】Facebook 正式发布 ReactJS v15.0 稳定版
+                      </a>
+                    
+                      <a  href='/2016-02-21-Chinese-Version-of-React.js-Best-Practices-for-2016/' class="list-group-item pjaxlink">
+                        【译】展望2016，React.js 最佳实践
+                      </a>
+                    
+                      <a  href='/2016-01-22-reactjs-best-practices-for-2016/' class="list-group-item pjaxlink">
+                        【译】展望2016，React.js 最佳实践 (中英对照版)
+                      </a>
+                    
+                      <a  href='/2015-09-27-reactjs_tutorial_part_4/' class="list-group-item pjaxlink">
+                        【译】React.js教程 第四部分：Express路由
+                      </a>
+                    
+                      <a  href='/2015-08-22-reactjs_tutorial_part_interlude_2/' class="list-group-item pjaxlink">
+                        【译】React.js教程 番外篇（二）：如何升级NPM依赖的版本
+                      </a>
+                    
+                      <a  href='/2015-07-30-reactjs_tutorial_part_3/' class="list-group-item pjaxlink">
+                        【译】React.js教程 第三部分：一个真实的React组件
+                      </a>
+                    
+                      <a  href='/2015-07-22-difference-between-blog-and-note/' class="list-group-item pjaxlink">
+                        安利 GitBook：兼谈笔记与博客的区别
+                      </a>
+                    
+                      <a  href='/2015-06-22-reactjs_tutorial_part_interlude/' class="list-group-item pjaxlink">
+                        【译】React.js教程 番外篇（一）：使用Bower包管理工具
+                      </a>
+                    
+                      <a  href='/2015-06-06-reactjs_tutorial_part_2/' class="list-group-item pjaxlink">
+                        【译】React.js教程 第二部分：使用Gulp自动化构建工具
+                      </a>
+                    
+                      <a  href='/2015-05-31-reactjs_tutorial_part_1/' class="list-group-item pjaxlink">
+                        【译】React.js教程 第一部分：Hello World!
+                      </a>
+                    
+                      <a  href='/2015-05-14-learning-reactjs/' class="list-group-item pjaxlink">
+                        React.js 复习笔记：组件组合与复用
+                      </a>
+                    
+                      <a  href='/2015-03-21-learning-react-js/' class="list-group-item pjaxlink">
+                        React 学习笔记总结
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#笔记">笔记</a>
+                      <span class="badge pull-right">4</span>
+                    </h4>
+                  </div>
+                  <div id="笔记" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-09-16-sorting-out-knowledge-from-information/' class="list-group-item pjaxlink">
+                        不断革新，不断改进：去伪存真的知识管理之路
+                      </a>
+                    
+                      <a  href='/2016-07-12-pkm-again-to-innovate-my-note-system/' class="list-group-item pjaxlink">
+                        再谈个人知识管理：革新我的笔记系统
+                      </a>
+                    
+                      <a  href='/2016-06-24-learning-java/' class="list-group-item pjaxlink">
+                        Python 基础如何学习 Java
+                      </a>
+                    
+                      <a  href='/2015-03-21-learning-react-js/' class="list-group-item pjaxlink">
+                        React 学习笔记总结
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#GFW">GFW</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="GFW" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-04-29-fight-with-gfw/' class="list-group-item pjaxlink">
+                        关于不同翻墙软件：GoAgent和ShadowSocks
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Google">Google</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Google" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-05-12-intellectual-and-single-entrance/' class="list-group-item pjaxlink">
+                        由写作环境引发的反思：单一入口的智能化
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Evernote">Evernote</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Evernote" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-05-12-intellectual-and-single-entrance/' class="list-group-item pjaxlink">
+                        由写作环境引发的反思：单一入口的智能化
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#JavaScript">JavaScript</a>
+                      <span class="badge pull-right">13</span>
+                    </h4>
+                  </div>
+                  <div id="JavaScript" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-06-30-serverless-in-action-build-personal-reading-statistics-system/' class="list-group-item pjaxlink">
+                        Serverless 实战：打造个人阅读追踪系统
+                      </a>
+                    
+                      <a  href='/2017-01-08-clean-code-javascript-classes-design-principles/' class="list-group-item pjaxlink">
+                        【译】整洁代码：JavaScript 当中的面向对象设计原则（S.O.L.I.D）
+                      </a>
+                    
+                      <a  href='/2016-09-18-jsconf-summary-feature-team-and-developer-experience/' class="list-group-item pjaxlink">
+                        JSConf 2016 (Ning)
+                      </a>
+                    
+                      <a  href='/2016-07-28-adobe-aem-101-overview/' class="list-group-item pjaxlink">
+                        Adobe AEM 101 Overview
+                      </a>
+                    
+                      <a  href='/2016-06-10-thirteen-steps-to-a-faster-web-app/' class="list-group-item pjaxlink">
+                        【译】唯快不破：Web 应用的 13 个优化步骤
+                      </a>
+                    
+                      <a  href='/2016-03-28-js-moudle-history-and-webpack-in-action/' class="list-group-item pjaxlink">
+                        前端模块化小史，Webpack 入门
+                      </a>
+                    
+                      <a  href='/2016-03-10-getting-webpack-done-and-js-module-history/' class="list-group-item pjaxlink">
+                        搞定 Webpack (1)：前端模块化实践小史与 Webpack 入门
+                      </a>
+                    
+                      <a  href='/2016-03-08-introduction-of-angular-new-features-by-examples/' class="list-group-item pjaxlink">
+                        升级 AngularJS 1.5：新特性对比与最佳实践
+                      </a>
+                    
+                      <a  href='/2016-02-11-optimistic-ui-with-meteor/' class="list-group-item pjaxlink">
+                        【译】使用 Meteor 构建「积极的用户界面」
+                      </a>
+                    
+                      <a  href='/2015-11-11-rethinking-about-front-end/' class="list-group-item pjaxlink">
+                        关于前端的思考：Angular 2.0以及前后端边界
+                      </a>
+                    
+                      <a  href='/2015-11-10-reading-open-resource-code-from-github/' class="list-group-item pjaxlink">
+                        GitHub开源项目源码十阅(1)：getAwesomeness
+                      </a>
+                    
+                      <a  href='/2015-11-02-history-about-web-development-evolution/' class="list-group-item pjaxlink">
+                        Web 前端开发模式演变
+                      </a>
+                    
+                      <a  href='/2015-05-17-how-to-install-nodejs-correctly/' class="list-group-item pjaxlink">
+                        Node.js的正确安装与相关工具（Mac OS X）
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#NodeJS">NodeJS</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="NodeJS" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-08-22-reactjs_tutorial_part_interlude_2/' class="list-group-item pjaxlink">
+                        【译】React.js教程 番外篇（二）：如何升级NPM依赖的版本
+                      </a>
+                    
+                      <a  href='/2015-05-17-how-to-install-nodejs-correctly/' class="list-group-item pjaxlink">
+                        Node.js的正确安装与相关工具（Mac OS X）
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#爱情">爱情</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="爱情" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-07-23-wallpaper-by-liqing-01/' class="list-group-item pjaxlink">
+                        吕立青拍的壁纸系列（一）
+                      </a>
+                    
+                      <a  href='/2015-05-23-wallpaper-by-liqing-02/' class="list-group-item pjaxlink">
+                        吕立青拍的壁纸系列（二）
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#人性">人性</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="人性" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-06-10-about-choice-time-and-attention/' class="list-group-item pjaxlink">
+                        随笔：关于选择、时间和注意力
+                      </a>
+                    
+                      <a  href='/2015-07-25-about-people-in-tw/' class="list-group-item pjaxlink">
+                        记一次对话：自我与环境以及环境中的人
+                      </a>
+                    
+                      <a  href='/2015-05-27-new-state-in-library/' class="list-group-item pjaxlink">
+                        出走寝室：在图书馆的所思所想
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Express">Express</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="Express" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-11-10-reading-open-resource-code-from-github/' class="list-group-item pjaxlink">
+                        GitHub开源项目源码十阅(1)：getAwesomeness
+                      </a>
+                    
+                      <a  href='/2015-09-27-reactjs_tutorial_part_4/' class="list-group-item pjaxlink">
+                        【译】React.js教程 第四部分：Express路由
+                      </a>
+                    
+                      <a  href='/2015-05-31-reactjs_tutorial_part_1/' class="list-group-item pjaxlink">
+                        【译】React.js教程 第一部分：Hello World!
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Gulp">Gulp</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Gulp" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-06-06-reactjs_tutorial_part_2/' class="list-group-item pjaxlink">
+                        【译】React.js教程 第二部分：使用Gulp自动化构建工具
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Bower">Bower</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Bower" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-06-22-reactjs_tutorial_part_interlude/' class="list-group-item pjaxlink">
+                        【译】React.js教程 番外篇（一）：使用Bower包管理工具
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Microservices">Microservices</a>
+                      <span class="badge pull-right">5</span>
+                    </h4>
+                  </div>
+                  <div id="Microservices" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed/' class="list-group-item pjaxlink">
+                        技术雷达之「微前端」- 将微服务理念扩展到前端开发（上：理论篇）
+                      </a>
+                    
+                      <a  href='/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed-next/' class="list-group-item pjaxlink">
+                        技术雷达之「微前端」- 将微服务理念扩展到前端开发（下：实战篇）
+                      </a>
+                    
+                      <a  href='/2017-12-22-tech-radar-microfrontends-extending-microservice-to-fed/' class="list-group-item pjaxlink">
+                        「技术雷达」之 Micro Frontends：微前端 - 将微服务理念扩展到前端开发
+                      </a>
+                    
+                      <a  href='/2015-08-25-using_microservices_to_build_cloud_native_applications__part_1/' class="list-group-item pjaxlink">
+                        【译】使用微服务构建原生云端应用 - 第一部分
+                      </a>
+                    
+                      <a  href='/2015-07-26-learning-microservices/' class="list-group-item pjaxlink">
+                        Microservices 最佳实践之路
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#菜谱">菜谱</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="菜谱" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-08-16-introduction-about-tagine/' class="list-group-item pjaxlink">
+                        塔吉锅简介以及菜谱推荐
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#家居">家居</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="家居" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-08-16-introduction-about-tagine/' class="list-group-item pjaxlink">
+                        塔吉锅简介以及菜谱推荐
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#RESTful">RESTful</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="RESTful" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-08-23-developing_a_restful_web_service_using_spring_boot/' class="list-group-item pjaxlink">
+                        【译】使用Spring Boot开发RESTful Web服务
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Spring">Spring</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="Spring" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-12-10-spring-mvc-in-action/' class="list-group-item pjaxlink">
+                        思沃讲堂：Spring MVC 实战
+                      </a>
+                    
+                      <a  href='/2015-08-23-developing_a_restful_web_service_using_spring_boot/' class="list-group-item pjaxlink">
+                        【译】使用Spring Boot开发RESTful Web服务
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Cloud">Cloud</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Cloud" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-08-25-using_microservices_to_build_cloud_native_applications__part_1/' class="list-group-item pjaxlink">
+                        【译】使用微服务构建原生云端应用 - 第一部分
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#生活">生活</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="生活" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-09-20-recent-plan-focus/' class="list-group-item pjaxlink">
+                        随想：没有比这更好的状态
+                      </a>
+                    
+                      <a  href='/2015-09-05-periodically-anxiety/' class="list-group-item pjaxlink">
+                        周期性大姨夫：一篇关于梦想和生活的咆哮
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#活动">活动</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="活动" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-09-15-rails-girls-internal-version/' class="list-group-item pjaxlink">
+                        看介里！Rails Girls成都站活动总结火热来袭~
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#编程">编程</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="编程" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-09-15-rails-girls-internal-version/' class="list-group-item pjaxlink">
+                        看介里！Rails Girls成都站活动总结火热来袭~
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#爬虫">爬虫</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="爬虫" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-09-23-crawler-using-python/' class="list-group-item pjaxlink">
+                        一个知识清单：如何学习Python爬虫
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#效率">效率</a>
+                      <span class="badge pull-right">7</span>
+                    </h4>
+                  </div>
+                  <div id="效率" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-02-20-gtd-best-practice-137/' class="list-group-item pjaxlink">
+                        《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？
+                      </a>
+                    
+                      <a  href='/2016-09-16-sorting-out-knowledge-from-information/' class="list-group-item pjaxlink">
+                        不断革新，不断改进：去伪存真的知识管理之路
+                      </a>
+                    
+                      <a  href='/2016-07-12-pkm-again-to-innovate-my-note-system/' class="list-group-item pjaxlink">
+                        再谈个人知识管理：革新我的笔记系统
+                      </a>
+                    
+                      <a  href='/2016-07-10-speed-up-mac-efficiency/' class="list-group-item pjaxlink">
+                        全面思考：Mac + iPhone 效率加速之战略篇 && 战术篇
+                      </a>
+                    
+                      <a  href='/2016-06-11-write-in-mac-os-x/' class="list-group-item pjaxlink">
+                        敏捷写作：macOS 环境下写作系统的最优配置
+                      </a>
+                    
+                      <a  href='/2015-10-31-mission-control-on-mac-os-x/' class="list-group-item pjaxlink">
+                        从需求出发：再谈 macOS 下的 Mission Control
+                      </a>
+                    
+                      <a  href='/2015-10-30-productivity-and-pressure/' class="list-group-item pjaxlink">
+                        谈谈效率：工作与生活、压力与负担
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#macOS">macOS</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="macOS" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-10-31-mission-control-on-mac-os-x/' class="list-group-item pjaxlink">
+                        从需求出发：再谈 macOS 下的 Mission Control
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Web">Web</a>
+                      <span class="badge pull-right">4</span>
+                    </h4>
+                  </div>
+                  <div id="Web" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-05-10-tech-radar-pwa-build-native-like-mobile-web-app/' class="list-group-item pjaxlink">
+                        「技术雷达」之 PWA：Build Native-like Mobile Web App
+                      </a>
+                    
+                      <a  href='/2016-06-10-thirteen-steps-to-a-faster-web-app/' class="list-group-item pjaxlink">
+                        【译】唯快不破：Web 应用的 13 个优化步骤
+                      </a>
+                    
+                      <a  href='/2015-12-10-spring-mvc-in-action/' class="list-group-item pjaxlink">
+                        思沃讲堂：Spring MVC 实战
+                      </a>
+                    
+                      <a  href='/2015-11-02-history-about-web-development-evolution/' class="list-group-item pjaxlink">
+                        Web 前端开发模式演变
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#开源项目">开源项目</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="开源项目" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-11-10-reading-open-resource-code-from-github/' class="list-group-item pjaxlink">
+                        GitHub开源项目源码十阅(1)：getAwesomeness
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#GitHub">GitHub</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="GitHub" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-06-30-serverless-in-action-build-personal-reading-statistics-system/' class="list-group-item pjaxlink">
+                        Serverless 实战：打造个人阅读追踪系统
+                      </a>
+                    
+                      <a  href='/2016-12-04-agile-learning-based-on-github-issues/' class="list-group-item pjaxlink">
+                        基于 GitHub 的敏捷学习方法之道与术
+                      </a>
+                    
+                      <a  href='/2015-11-10-reading-open-resource-code-from-github/' class="list-group-item pjaxlink">
+                        GitHub开源项目源码十阅(1)：getAwesomeness
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#AngularJS">AngularJS</a>
+                      <span class="badge pull-right">4</span>
+                    </h4>
+                  </div>
+                  <div id="AngularJS" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-03-08-introduction-of-angular-new-features-by-examples/' class="list-group-item pjaxlink">
+                        升级 AngularJS 1.5：新特性对比与最佳实践
+                      </a>
+                    
+                      <a  href='/2016-02-16-rethink-angularjs-in-action/' class="list-group-item pjaxlink">
+                        Rethink AngularJS in Action
+                      </a>
+                    
+                      <a  href='/2015-12-08-rest-in-action/' class="list-group-item pjaxlink">
+                        REST IN ACTION
+                      </a>
+                    
+                      <a  href='/2015-11-11-rethinking-about-front-end/' class="list-group-item pjaxlink">
+                        关于前端的思考：Angular 2.0以及前后端边界
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#REST">REST</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="REST" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-28-adobe-aem-101-overview/' class="list-group-item pjaxlink">
+                        Adobe AEM 101 Overview
+                      </a>
+                    
+                      <a  href='/2015-12-08-rest-in-action/' class="list-group-item pjaxlink">
+                        REST IN ACTION
+                      </a>
+                    
+                      <a  href='/2015-11-11-what-is-really-rest/' class="list-group-item pjaxlink">
+                        什么才是真正的 RESTful 架构？
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#API">API</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="API" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-11-11-what-is-really-rest/' class="list-group-item pjaxlink">
+                        什么才是真正的 RESTful 架构？
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#HTTP">HTTP</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="HTTP" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-11-11-what-is-really-rest/' class="list-group-item pjaxlink">
+                        什么才是真正的 RESTful 架构？
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Gradle">Gradle</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Gradle" class="panel-collapse collapse">
+                    
+                      <a  href='/2015-11-16-how-to-use-gradle-and-speed-up-build-time/' class="list-group-item pjaxlink">
+                        使用 Gradle 快速构建项目以及 Gradle 速度优化
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Architecture">Architecture</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="Architecture" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-07-what-the-flux-on-flux-ddd-and-cqrs/' class="list-group-item pjaxlink">
+                        【译】什么是 Flux 架构？（兼谈 DDD 和 CQRS）
+                      </a>
+                    
+                      <a  href='/2016-07-04-rules-for-structuring-redux-applications/' class="list-group-item pjaxlink">
+                        【译】Redux + React 应用程序架构的 3 条规范（内附实例）
+                      </a>
+                    
+                      <a  href='/2015-12-08-rest-in-action/' class="list-group-item pjaxlink">
+                        REST IN ACTION
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#MVC">MVC</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="MVC" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-07-what-the-flux-on-flux-ddd-and-cqrs/' class="list-group-item pjaxlink">
+                        【译】什么是 Flux 架构？（兼谈 DDD 和 CQRS）
+                      </a>
+                    
+                      <a  href='/2015-12-10-spring-mvc-in-action/' class="list-group-item pjaxlink">
+                        思沃讲堂：Spring MVC 实战
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Node">Node</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Node" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-01-01-introduction-of-node-ppt/' class="list-group-item pjaxlink">
+                        Node PPT Markdown 演示（转）
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#技能">技能</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="技能" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-01-01-introduction-of-node-ppt/' class="list-group-item pjaxlink">
+                        Node PPT Markdown 演示（转）
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Meteor">Meteor</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Meteor" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-02-11-optimistic-ui-with-meteor/' class="list-group-item pjaxlink">
+                        【译】使用 Meteor 构建「积极的用户界面」
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Summary">Summary</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Summary" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-02-16-rethink-angularjs-in-action/' class="list-group-item pjaxlink">
+                        Rethink AngularJS in Action
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Webpack">Webpack</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="Webpack" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-03-28-js-moudle-history-and-webpack-in-action/' class="list-group-item pjaxlink">
+                        前端模块化小史，Webpack 入门
+                      </a>
+                    
+                      <a  href='/2016-03-13-webpack-in-action/' class="list-group-item pjaxlink">
+                        搞定 Webpack (2)：使用 Webpack 大幅提升前端开发体验
+                      </a>
+                    
+                      <a  href='/2016-03-10-getting-webpack-done-and-js-module-history/' class="list-group-item pjaxlink">
+                        搞定 Webpack (1)：前端模块化实践小史与 Webpack 入门
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#工程化">工程化</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="工程化" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-03-28-js-moudle-history-and-webpack-in-action/' class="list-group-item pjaxlink">
+                        前端模块化小史，Webpack 入门
+                      </a>
+                    
+                      <a  href='/2016-03-13-webpack-in-action/' class="list-group-item pjaxlink">
+                        搞定 Webpack (2)：使用 Webpack 大幅提升前端开发体验
+                      </a>
+                    
+                      <a  href='/2016-03-10-getting-webpack-done-and-js-module-history/' class="list-group-item pjaxlink">
+                        搞定 Webpack (1)：前端模块化实践小史与 Webpack 入门
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Angular">Angular</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Angular" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-03-13-webpack-in-action/' class="list-group-item pjaxlink">
+                        搞定 Webpack (2)：使用 Webpack 大幅提升前端开发体验
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#重构">重构</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="重构" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-03-13-webpack-in-action/' class="list-group-item pjaxlink">
+                        搞定 Webpack (2)：使用 Webpack 大幅提升前端开发体验
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#DX">DX</a>
+                      <span class="badge pull-right">5</span>
+                    </h4>
+                  </div>
+                  <div id="DX" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-09-18-jsconf-summary-feature-team-and-developer-experience/' class="list-group-item pjaxlink">
+                        JSConf 2016 (Ning)
+                      </a>
+                    
+                      <a  href='/2016-07-04-rules-for-structuring-redux-applications/' class="list-group-item pjaxlink">
+                        【译】Redux + React 应用程序架构的 3 条规范（内附实例）
+                      </a>
+                    
+                      <a  href='/2016-07-03-a-better-file-structure-for-react-redux-applications/' class="list-group-item pjaxlink">
+                        【译】一种更好的 React/Redux 应用程序的文件目录结构
+                      </a>
+                    
+                      <a  href='/2016-05-18-working-with-reactjs-in-webstorm/' class="list-group-item pjaxlink">
+                        【译】在 Webstorm 中使用 ReactJS：编码辅助、代码规范、重构以及编译
+                      </a>
+                    
+                      <a  href='/2016-03-13-webpack-in-action/' class="list-group-item pjaxlink">
+                        搞定 Webpack (2)：使用 Webpack 大幅提升前端开发体验
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Release">Release</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Release" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-04-08-react-v15-the-big-and-great-latest-version/' class="list-group-item pjaxlink">
+                        【译】Facebook 正式发布 ReactJS v15.0 稳定版
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Redux">Redux</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="Redux" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-04-rules-for-structuring-redux-applications/' class="list-group-item pjaxlink">
+                        【译】Redux + React 应用程序架构的 3 条规范（内附实例）
+                      </a>
+                    
+                      <a  href='/2016-07-03-a-better-file-structure-for-react-redux-applications/' class="list-group-item pjaxlink">
+                        【译】一种更好的 React/Redux 应用程序的文件目录结构
+                      </a>
+                    
+                      <a  href='/2016-04-19-redux-and-the-command-pattern/' class="list-group-item pjaxlink">
+                        【译】Redux 和 命令模式
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Design Pattern">Design Pattern</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Design Pattern" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-04-19-redux-and-the-command-pattern/' class="list-group-item pjaxlink">
+                        【译】Redux 和 命令模式
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Intellij">Intellij</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Intellij" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-05-18-working-with-reactjs-in-webstorm/' class="list-group-item pjaxlink">
+                        【译】在 Webstorm 中使用 ReactJS：编码辅助、代码规范、重构以及编译
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#IDE">IDE</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="IDE" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-05-18-working-with-reactjs-in-webstorm/' class="list-group-item pjaxlink">
+                        【译】在 Webstorm 中使用 ReactJS：编码辅助、代码规范、重构以及编译
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#FED">FED</a>
+                      <span class="badge pull-right">6</span>
+                    </h4>
+                  </div>
+                  <div id="FED" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed/' class="list-group-item pjaxlink">
+                        技术雷达之「微前端」- 将微服务理念扩展到前端开发（上：理论篇）
+                      </a>
+                    
+                      <a  href='/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed-next/' class="list-group-item pjaxlink">
+                        技术雷达之「微前端」- 将微服务理念扩展到前端开发（下：实战篇）
+                      </a>
+                    
+                      <a  href='/2017-12-22-tech-radar-microfrontends-extending-microservice-to-fed/' class="list-group-item pjaxlink">
+                        「技术雷达」之 Micro Frontends：微前端 - 将微服务理念扩展到前端开发
+                      </a>
+                    
+                      <a  href='/2016-07-04-rules-for-structuring-redux-applications/' class="list-group-item pjaxlink">
+                        【译】Redux + React 应用程序架构的 3 条规范（内附实例）
+                      </a>
+                    
+                      <a  href='/2016-07-03-a-better-file-structure-for-react-redux-applications/' class="list-group-item pjaxlink">
+                        【译】一种更好的 React/Redux 应用程序的文件目录结构
+                      </a>
+                    
+                      <a  href='/2016-06-10-thirteen-steps-to-a-faster-web-app/' class="list-group-item pjaxlink">
+                        【译】唯快不破：Web 应用的 13 个优化步骤
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Optimization">Optimization</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Optimization" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-06-10-thirteen-steps-to-a-faster-web-app/' class="list-group-item pjaxlink">
+                        【译】唯快不破：Web 应用的 13 个优化步骤
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Mac">Mac</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="Mac" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-10-speed-up-mac-efficiency/' class="list-group-item pjaxlink">
+                        全面思考：Mac + iPhone 效率加速之战略篇 && 战术篇
+                      </a>
+                    
+                      <a  href='/2016-06-11-write-in-mac-os-x/' class="list-group-item pjaxlink">
+                        敏捷写作：macOS 环境下写作系统的最优配置
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#个人成长">个人成长</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="个人成长" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-12-pkm-again-to-innovate-my-note-system/' class="list-group-item pjaxlink">
+                        再谈个人知识管理：革新我的笔记系统
+                      </a>
+                    
+                      <a  href='/2016-06-11-write-in-mac-os-x/' class="list-group-item pjaxlink">
+                        敏捷写作：macOS 环境下写作系统的最优配置
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#敏捷">敏捷</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="敏捷" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-12-04-agile-learning-based-on-github-issues/' class="list-group-item pjaxlink">
+                        基于 GitHub 的敏捷学习方法之道与术
+                      </a>
+                    
+                      <a  href='/2016-11-19-input-and-output-of-PKM/' class="list-group-item pjaxlink">
+                        渐进式知识管理：写作动机与分享的价值影响
+                      </a>
+                    
+                      <a  href='/2016-06-11-write-in-mac-os-x/' class="list-group-item pjaxlink">
+                        敏捷写作：macOS 环境下写作系统的最优配置
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Test">Test</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Test" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-03-a-better-file-structure-for-react-redux-applications/' class="list-group-item pjaxlink">
+                        【译】一种更好的 React/Redux 应用程序的文件目录结构
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Flux">Flux</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Flux" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-07-what-the-flux-on-flux-ddd-and-cqrs/' class="list-group-item pjaxlink">
+                        【译】什么是 Flux 架构？（兼谈 DDD 和 CQRS）
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#DDD">DDD</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="DDD" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-07-what-the-flux-on-flux-ddd-and-cqrs/' class="list-group-item pjaxlink">
+                        【译】什么是 Flux 架构？（兼谈 DDD 和 CQRS）
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#CQRS">CQRS</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="CQRS" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-11-02-vue-application-unit-test-strategy-and-practice-04-testing-vuex/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 04 - Vuex 单元测试
+                      </a>
+                    
+                      <a  href='/2016-07-07-what-the-flux-on-flux-ddd-and-cqrs/' class="list-group-item pjaxlink">
+                        【译】什么是 Flux 架构？（兼谈 DDD 和 CQRS）
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#AEM">AEM</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="AEM" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-28-adobe-aem-101-overview/' class="list-group-item pjaxlink">
+                        Adobe AEM 101 Overview
+                      </a>
+                    
+                      <a  href='/2016-07-09-learning-aem/' class="list-group-item pjaxlink">
+                        持续用户体验：Learning AEM
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#前端">前端</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="前端" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-01-08-clean-code-javascript-classes-design-principles/' class="list-group-item pjaxlink">
+                        【译】整洁代码：JavaScript 当中的面向对象设计原则（S.O.L.I.D）
+                      </a>
+                    
+                      <a  href='/2016-07-09-learning-aem/' class="list-group-item pjaxlink">
+                        持续用户体验：Learning AEM
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#评注">评注</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="评注" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-20-active-reading-the-art-of-annotation/' class="list-group-item pjaxlink">
+                        【译】主动阅读：评注的艺术
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#CMS">CMS</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="CMS" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-28-adobe-aem-101-overview/' class="list-group-item pjaxlink">
+                        Adobe AEM 101 Overview
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Marketing">Marketing</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Marketing" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-28-adobe-aem-101-overview/' class="list-group-item pjaxlink">
+                        Adobe AEM 101 Overview
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Adobe">Adobe</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Adobe" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-07-28-adobe-aem-101-overview/' class="list-group-item pjaxlink">
+                        Adobe AEM 101 Overview
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Linux">Linux</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Linux" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-08-17-linux-shell-workshop-note/' class="list-group-item pjaxlink">
+                        WorkShop 笔记：Linux shell 命令密室逃脱之旅
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#DevOps">DevOps</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="DevOps" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-08-17-linux-shell-workshop-note/' class="list-group-item pjaxlink">
+                        WorkShop 笔记：Linux shell 命令密室逃脱之旅
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Shell">Shell</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Shell" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-08-17-linux-shell-workshop-note/' class="list-group-item pjaxlink">
+                        WorkShop 笔记：Linux shell 命令密室逃脱之旅
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Bash">Bash</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Bash" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-08-17-linux-shell-workshop-note/' class="list-group-item pjaxlink">
+                        WorkShop 笔记：Linux shell 命令密室逃脱之旅
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#印象笔记">印象笔记</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="印象笔记" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-09-16-sorting-out-knowledge-from-information/' class="list-group-item pjaxlink">
+                        不断革新，不断改进：去伪存真的知识管理之路
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Diigo">Diigo</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="Diigo" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-06-30-serverless-in-action-build-personal-reading-statistics-system/' class="list-group-item pjaxlink">
+                        Serverless 实战：打造个人阅读追踪系统
+                      </a>
+                    
+                      <a  href='/2016-11-19-input-and-output-of-PKM/' class="list-group-item pjaxlink">
+                        渐进式知识管理：写作动机与分享的价值影响
+                      </a>
+                    
+                      <a  href='/2016-09-16-sorting-out-knowledge-from-information/' class="list-group-item pjaxlink">
+                        不断革新，不断改进：去伪存真的知识管理之路
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Conf">Conf</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Conf" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-09-18-jsconf-summary-feature-team-and-developer-experience/' class="list-group-item pjaxlink">
+                        JSConf 2016 (Ning)
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#FullStack">FullStack</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="FullStack" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-09-18-jsconf-summary-feature-team-and-developer-experience/' class="list-group-item pjaxlink">
+                        JSConf 2016 (Ning)
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#区块链">区块链</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="区块链" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-10-26-technology-make-world-better-place/' class="list-group-item pjaxlink">
+                        小幸运：科技带来的持续感动
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#手机">手机</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="手机" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-10-26-technology-make-world-better-place/' class="list-group-item pjaxlink">
+                        小幸运：科技带来的持续感动
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#小米">小米</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="小米" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-10-26-technology-make-world-better-place/' class="list-group-item pjaxlink">
+                        小幸运：科技带来的持续感动
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#ThoughtWorks">ThoughtWorks</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="ThoughtWorks" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-10-26-technology-make-world-better-place/' class="list-group-item pjaxlink">
+                        小幸运：科技带来的持续感动
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#成长">成长</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="成长" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-01-21-personal-growth-infrastructure/' class="list-group-item pjaxlink">
+                        个人成长基础设施：纪念那些年我折腾过的各种…
+                      </a>
+                    
+                      <a  href='/2016-12-04-agile-learning-based-on-github-issues/' class="list-group-item pjaxlink">
+                        基于 GitHub 的敏捷学习方法之道与术
+                      </a>
+                    
+                      <a  href='/2016-11-19-input-and-output-of-PKM/' class="list-group-item pjaxlink">
+                        渐进式知识管理：写作动机与分享的价值影响
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#iPhone">iPhone</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="iPhone" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-11-19-input-and-output-of-PKM/' class="list-group-item pjaxlink">
+                        渐进式知识管理：写作动机与分享的价值影响
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#ReactNaitve">ReactNaitve</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="ReactNaitve" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-12-07-react-testing-with-enzyme/' class="list-group-item pjaxlink">
+                        「技术雷达」之使用 Enzyme 测试 React（Native）组件
+                      </a>
+                    
+                      <a  href='/2016-11-30-tech-radar-react-testing-with-enzyme/' class="list-group-item pjaxlink">
+                        「技术雷达」之 React (Native) Testing with Enzyme
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Enzyme">Enzyme</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="Enzyme" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-12-07-react-testing-with-enzyme/' class="list-group-item pjaxlink">
+                        「技术雷达」之使用 Enzyme 测试 React（Native）组件
+                      </a>
+                    
+                      <a  href='/2016-11-30-tech-radar-react-testing-with-enzyme/' class="list-group-item pjaxlink">
+                        「技术雷达」之 React (Native) Testing with Enzyme
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#UI">UI</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="UI" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-11-30-tech-radar-react-testing-with-enzyme/' class="list-group-item pjaxlink">
+                        「技术雷达」之 React (Native) Testing with Enzyme
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#UnitTest">UnitTest</a>
+                      <span class="badge pull-right">5</span>
+                    </h4>
+                  </div>
+                  <div id="UnitTest" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-11-02-vue-application-unit-test-strategy-and-practice-04-testing-vuex/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 04 - Vuex 单元测试
+                      </a>
+                    
+                      <a  href='/2018-10-30-vue-application-unit-test-strategy-and-practice-03-testing-vue-components/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 03 - Vue 组件单元测试
+                      </a>
+                    
+                      <a  href='/2018-10-29-vue-application-unit-test-strategy-and-practice-02-how-jest-work/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 02 - 单元测试基础
+                      </a>
+                    
+                      <a  href='/2018-09-19-vue-application-unit-test-strategy-and-practice-01-introduction/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 01 - 前言
+                      </a>
+                    
+                      <a  href='/2016-11-30-tech-radar-react-testing-with-enzyme/' class="list-group-item pjaxlink">
+                        「技术雷达」之 React (Native) Testing with Enzyme
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#知识">知识</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="知识" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-12-04-agile-learning-based-on-github-issues/' class="list-group-item pjaxlink">
+                        基于 GitHub 的敏捷学习方法之道与术
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Testing">Testing</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Testing" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-12-07-react-testing-with-enzyme/' class="list-group-item pjaxlink">
+                        「技术雷达」之使用 Enzyme 测试 React（Native）组件
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#TechRadar">TechRadar</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="TechRadar" class="panel-collapse collapse">
+                    
+                      <a  href='/2016-12-07-react-testing-with-enzyme/' class="list-group-item pjaxlink">
+                        「技术雷达」之使用 Enzyme 测试 React（Native）组件
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#面向对象">面向对象</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="面向对象" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-01-08-clean-code-javascript-classes-design-principles/' class="list-group-item pjaxlink">
+                        【译】整洁代码：JavaScript 当中的面向对象设计原则（S.O.L.I.D）
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#设计原则">设计原则</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="设计原则" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-01-08-clean-code-javascript-classes-design-principles/' class="list-group-item pjaxlink">
+                        【译】整洁代码：JavaScript 当中的面向对象设计原则（S.O.L.I.D）
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#类型系统">类型系统</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="类型系统" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-01-08-clean-code-javascript-classes-design-principles/' class="list-group-item pjaxlink">
+                        【译】整洁代码：JavaScript 当中的面向对象设计原则（S.O.L.I.D）
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#WeChat">WeChat</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="WeChat" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-01-10-wechat-app-with-business-and-technology-01/' class="list-group-item pjaxlink">
+                        微信小程序(1)：技术是如何服务于商业的？
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#微信">微信</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="微信" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-01-10-wechat-app-with-business-and-technology-01/' class="list-group-item pjaxlink">
+                        微信小程序(1)：技术是如何服务于商业的？
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#小程序">小程序</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="小程序" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-01-10-wechat-app-with-business-and-technology-01/' class="list-group-item pjaxlink">
+                        微信小程序(1)：技术是如何服务于商业的？
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#商业">商业</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="商业" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-01-10-wechat-app-with-business-and-technology-01/' class="list-group-item pjaxlink">
+                        微信小程序(1)：技术是如何服务于商业的？
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#技术">技术</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="技术" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-01-10-wechat-app-with-business-and-technology-01/' class="list-group-item pjaxlink">
+                        微信小程序(1)：技术是如何服务于商业的？
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#插件">插件</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="插件" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-01-21-personal-growth-infrastructure/' class="list-group-item pjaxlink">
+                        个人成长基础设施：纪念那些年我折腾过的各种…
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#程序员">程序员</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="程序员" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-01-21-personal-growth-infrastructure/' class="list-group-item pjaxlink">
+                        个人成长基础设施：纪念那些年我折腾过的各种…
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#GTD">GTD</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="GTD" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-02-20-gtd-best-practice-137/' class="list-group-item pjaxlink">
+                        《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#目标">目标</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="目标" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-02-20-gtd-best-practice-137/' class="list-group-item pjaxlink">
+                        《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#产品">产品</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="产品" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-02-20-gtd-best-practice-137/' class="list-group-item pjaxlink">
+                        《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#工具">工具</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="工具" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-02-20-gtd-best-practice-137/' class="list-group-item pjaxlink">
+                        《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#AtomicDesign">AtomicDesign</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="AtomicDesign" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-03-16-atomic-design-with-react-workshop-01/' class="list-group-item pjaxlink">
+                        「React 系列 Workshop 01」之 Atomic Design with React
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#CDD">CDD</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="CDD" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-03-16-atomic-design-with-react-workshop-01/' class="list-group-item pjaxlink">
+                        「React 系列 Workshop 01」之 Atomic Design with React
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#FP">FP</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="FP" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-03-16-atomic-design-with-react-workshop-01/' class="list-group-item pjaxlink">
+                        「React 系列 Workshop 01」之 Atomic Design with React
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Melbourne">Melbourne</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Melbourne" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-04-16-lucky-business-trip-six-weeks-in-melbourne/' class="list-group-item pjaxlink">
+                        幸运出差之旅：在墨尔本的 6 Weeks
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#出差">出差</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="出差" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-04-16-lucky-business-trip-six-weeks-in-melbourne/' class="list-group-item pjaxlink">
+                        幸运出差之旅：在墨尔本的 6 Weeks
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#滤镜">滤镜</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="滤镜" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-04-16-lucky-business-trip-six-weeks-in-melbourne/' class="list-group-item pjaxlink">
+                        幸运出差之旅：在墨尔本的 6 Weeks
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#PWA">PWA</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="PWA" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-05-10-tech-radar-pwa-build-native-like-mobile-web-app/' class="list-group-item pjaxlink">
+                        「技术雷达」之 PWA：Build Native-like Mobile Web App
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Native">Native</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Native" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-05-10-tech-radar-pwa-build-native-like-mobile-web-app/' class="list-group-item pjaxlink">
+                        「技术雷达」之 PWA：Build Native-like Mobile Web App
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Mobile">Mobile</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Mobile" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-05-10-tech-radar-pwa-build-native-like-mobile-web-app/' class="list-group-item pjaxlink">
+                        「技术雷达」之 PWA：Build Native-like Mobile Web App
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#ServiceWorker">ServiceWorker</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="ServiceWorker" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-05-10-tech-radar-pwa-build-native-like-mobile-web-app/' class="list-group-item pjaxlink">
+                        「技术雷达」之 PWA：Build Native-like Mobile Web App
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Serverless">Serverless</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Serverless" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-06-30-serverless-in-action-build-personal-reading-statistics-system/' class="list-group-item pjaxlink">
+                        Serverless 实战：打造个人阅读追踪系统
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Reading">Reading</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Reading" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-06-30-serverless-in-action-build-personal-reading-statistics-system/' class="list-group-item pjaxlink">
+                        Serverless 实战：打造个人阅读追踪系统
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Aglie">Aglie</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Aglie" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-06-30-serverless-in-action-build-personal-reading-statistics-system/' class="list-group-item pjaxlink">
+                        Serverless 实战：打造个人阅读追踪系统
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Microfrontends">Microfrontends</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="Microfrontends" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed/' class="list-group-item pjaxlink">
+                        技术雷达之「微前端」- 将微服务理念扩展到前端开发（上：理论篇）
+                      </a>
+                    
+                      <a  href='/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed-next/' class="list-group-item pjaxlink">
+                        技术雷达之「微前端」- 将微服务理念扩展到前端开发（下：实战篇）
+                      </a>
+                    
+                      <a  href='/2017-12-22-tech-radar-microfrontends-extending-microservice-to-fed/' class="list-group-item pjaxlink">
+                        「技术雷达」之 Micro Frontends：微前端 - 将微服务理念扩展到前端开发
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#WebComponents">WebComponents</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="WebComponents" class="panel-collapse collapse">
+                    
+                      <a  href='/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed/' class="list-group-item pjaxlink">
+                        技术雷达之「微前端」- 将微服务理念扩展到前端开发（上：理论篇）
+                      </a>
+                    
+                      <a  href='/2017-12-24-tech-radar-microfrontends-extending-microservice-to-fed-next/' class="list-group-item pjaxlink">
+                        技术雷达之「微前端」- 将微服务理念扩展到前端开发（下：实战篇）
+                      </a>
+                    
+                      <a  href='/2017-12-22-tech-radar-microfrontends-extending-microservice-to-fed/' class="list-group-item pjaxlink">
+                        「技术雷达」之 Micro Frontends：微前端 - 将微服务理念扩展到前端开发
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Tutorial">Tutorial</a>
+                      <span class="badge pull-right">5</span>
+                    </h4>
+                  </div>
+                  <div id="Tutorial" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-11-02-vue-application-unit-test-strategy-and-practice-04-testing-vuex/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 04 - Vuex 单元测试
+                      </a>
+                    
+                      <a  href='/2018-10-30-vue-application-unit-test-strategy-and-practice-03-testing-vue-components/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 03 - Vue 组件单元测试
+                      </a>
+                    
+                      <a  href='/2018-10-29-vue-application-unit-test-strategy-and-practice-02-how-jest-work/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 02 - 单元测试基础
+                      </a>
+                    
+                      <a  href='/2018-09-19-vue-application-unit-test-strategy-and-practice-01-introduction/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 01 - 前言
+                      </a>
+                    
+                      <a  href='/2018-01-26-the-road-to-learn-react-chinese-translation/' class="list-group-item pjaxlink">
+                        【译】《React 学习之道》The Road to learn React (简体中文版) 最简单，且最实用的 React 实战教程
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Roadmap">Roadmap</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Roadmap" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-01-26-the-road-to-learn-react-chinese-translation/' class="list-group-item pjaxlink">
+                        【译】《React 学习之道》The Road to learn React (简体中文版) 最简单，且最实用的 React 实战教程
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#ES6">ES6</a>
+                      <span class="badge pull-right">5</span>
+                    </h4>
+                  </div>
+                  <div id="ES6" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-11-02-vue-application-unit-test-strategy-and-practice-04-testing-vuex/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 04 - Vuex 单元测试
+                      </a>
+                    
+                      <a  href='/2018-10-30-vue-application-unit-test-strategy-and-practice-03-testing-vue-components/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 03 - Vue 组件单元测试
+                      </a>
+                    
+                      <a  href='/2018-10-29-vue-application-unit-test-strategy-and-practice-02-how-jest-work/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 02 - 单元测试基础
+                      </a>
+                    
+                      <a  href='/2018-09-19-vue-application-unit-test-strategy-and-practice-01-introduction/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 01 - 前言
+                      </a>
+                    
+                      <a  href='/2018-01-26-the-road-to-learn-react-chinese-translation/' class="list-group-item pjaxlink">
+                        【译】《React 学习之道》The Road to learn React (简体中文版) 最简单，且最实用的 React 实战教程
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#碎片化">碎片化</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="碎片化" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-04-10-how-to-survive-in-the-age-of-fragmented-information/' class="list-group-item pjaxlink">
+                        融核π：碎片化信息时代的生存之道
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Vue">Vue</a>
+                      <span class="badge pull-right">4</span>
+                    </h4>
+                  </div>
+                  <div id="Vue" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-11-02-vue-application-unit-test-strategy-and-practice-04-testing-vuex/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 04 - Vuex 单元测试
+                      </a>
+                    
+                      <a  href='/2018-10-30-vue-application-unit-test-strategy-and-practice-03-testing-vue-components/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 03 - Vue 组件单元测试
+                      </a>
+                    
+                      <a  href='/2018-10-29-vue-application-unit-test-strategy-and-practice-02-how-jest-work/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 02 - 单元测试基础
+                      </a>
+                    
+                      <a  href='/2018-09-19-vue-application-unit-test-strategy-and-practice-01-introduction/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 01 - 前言
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Jest">Jest</a>
+                      <span class="badge pull-right">4</span>
+                    </h4>
+                  </div>
+                  <div id="Jest" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-11-02-vue-application-unit-test-strategy-and-practice-04-testing-vuex/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 04 - Vuex 单元测试
+                      </a>
+                    
+                      <a  href='/2018-10-30-vue-application-unit-test-strategy-and-practice-03-testing-vue-components/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 03 - Vue 组件单元测试
+                      </a>
+                    
+                      <a  href='/2018-10-29-vue-application-unit-test-strategy-and-practice-02-how-jest-work/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 02 - 单元测试基础
+                      </a>
+                    
+                      <a  href='/2018-09-19-vue-application-unit-test-strategy-and-practice-01-introduction/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 01 - 前言
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Agile">Agile</a>
+                      <span class="badge pull-right">3</span>
+                    </h4>
+                  </div>
+                  <div id="Agile" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-10-30-vue-application-unit-test-strategy-and-practice-03-testing-vue-components/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 03 - Vue 组件单元测试
+                      </a>
+                    
+                      <a  href='/2018-10-29-vue-application-unit-test-strategy-and-practice-02-how-jest-work/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 02 - 单元测试基础
+                      </a>
+                    
+                      <a  href='/2018-09-19-vue-application-unit-test-strategy-and-practice-01-introduction/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 01 - 前言
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#TDD">TDD</a>
+                      <span class="badge pull-right">4</span>
+                    </h4>
+                  </div>
+                  <div id="TDD" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-11-02-vue-application-unit-test-strategy-and-practice-04-testing-vuex/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 04 - Vuex 单元测试
+                      </a>
+                    
+                      <a  href='/2018-10-30-vue-application-unit-test-strategy-and-practice-03-testing-vue-components/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 03 - Vue 组件单元测试
+                      </a>
+                    
+                      <a  href='/2018-10-29-vue-application-unit-test-strategy-and-practice-02-how-jest-work/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 02 - 单元测试基础
+                      </a>
+                    
+                      <a  href='/2018-09-19-vue-application-unit-test-strategy-and-practice-01-introduction/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 01 - 前言
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#DPS">DPS</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="DPS" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-10-09-the-art-of-platform-thinking-zh/' class="list-group-item pjaxlink">
+                        【译】（数字化）平台思维的艺术
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Platform">Platform</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Platform" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-10-09-the-art-of-platform-thinking-zh/' class="list-group-item pjaxlink">
+                        【译】（数字化）平台思维的艺术
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Framework">Framework</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Framework" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-10-09-the-art-of-platform-thinking-zh/' class="list-group-item pjaxlink">
+                        【译】（数字化）平台思维的艺术
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Innovation">Innovation</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Innovation" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-10-09-the-art-of-platform-thinking-zh/' class="list-group-item pjaxlink">
+                        【译】（数字化）平台思维的艺术
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Strategy">Strategy</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Strategy" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-10-09-the-art-of-platform-thinking-zh/' class="list-group-item pjaxlink">
+                        【译】（数字化）平台思维的艺术
+                      </a>
+                    
+                  </div>
+                </div>
+              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Vuex">Vuex</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Vuex" class="panel-collapse collapse">
+                    
+                      <a  href='/2018-11-02-vue-application-unit-test-strategy-and-practice-04-testing-vuex/' class="list-group-item pjaxlink">
+                        Vue 应用单元测试的策略与实践 04 - Vuex 单元测试
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 aside3">
+                    <div id="container">
+                        <div id="pjax">
+                            <div class="row yue">
+  <div class="col-md-12 aside3-title">
+    <h1 id="#identifier">Node PPT Markdown 演示（转）</h1>
+    <div class="aside3-date">2016年01月01日</div>
+  </div>
+  <hr/>
+  <div class="col-md-12 aside3-content">
+    <div id="content">
+      <iframe id="preview" style="min-height: 600px;display: inherit;text-align: center;margin-bottom: 0;"
+              src="https://lecture.jimmylv.info/2016-01-01-introduction-of-node-ppt.html"
+              frameborder="0" width="100%" height="100%"></iframe>
+    </div>
+  
+  <!-- <div id="disqus_thread">
+	<button type="button" name="gotoshare" class="btn btn-default show-commend"> <i class="fa fa-comment-o fa-lg" style="color: #000;"></i>
+	</button>
+</div>
+ -->
+<div style="text-align: center;">
+  <span id="busuanzi_container_page_pv">本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span>
+</div>
+
+<!-- AddToAny BEGIN -->
+<h3>期待您的分享与讨论：</h3>
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_wechat"></a>
+<a class="a2a_button_sina_weibo"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_email"></a>
+<a class="a2a_button_linkedin"></a>
+<a class="a2a_button_diigo"></a>
+<a class="a2a_button_douban"></a>
+<a class="a2a_button_evernote"></a>
+<a class="a2a_button_google_bookmarks"></a>
+<a class="a2a_button_trello"></a>
+<a class="a2a_button_skype"></a>
+<a class="a2a_button_sms"></a>
+<a class="a2a_button_pocket"></a>
+<a class="a2a_button_pinboard"></a>
+<a class="a2a_button_line"></a>
+<a class="a2a_button_kindle_it"></a>
+<a class="a2a_button_instapaper"></a>
+<a class="a2a_button_flipboard"></a>
+<a class="a2a_button_facebook_messenger"></a>
+<a class="a2a_button_copy_link"></a>
+<a class="a2a_button_wordpress"></a>
+<a class="a2a_button_reddit"></a>
+<a class="a2a_button_pinterest"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'gotoshare';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<!-- Duoshuo Comment BEGIN  -->
+<!-- <div class="ds-thread"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"goshare"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0]
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+</script> -->
+<!-- Duoshuo Comment END
+
+<!-- UY BEGIN -->
+<!-- <div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1992409"></script> -->
+<!-- UY END -->
+
+  </div>
+  <!-- 目录 -->
+  <div id="content_table" style="position:fixed;right:20px;top:120px;display:none;">
+    <div class="panel panel-success">
+      <div class="panel-body" id="nav"></div>
+    </div>
+  </div>
+  <!--全屏-->
+  <div style="position:fixed;right:15px;top:62px;z-index: 10000">
+    <a id="fullscreen_btn"
+       href="https://lecture.jimmylv.info/2016-01-01-introduction-of-node-ppt.html"
+       target="_blank"
+       class="btn btn-primary"
+       style="width:43px; height:34px;">
+      <i class="fa fa-lg fa-arrows-alt" style="color: white; font-style: normal"></i>
+    </a>
+  </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="position:fixed;right:15px;top:62px;">
+  <button id="content_btn" class="btn btn-primary" style="width:43px; height:34px;">
+    <i class="fa fa-lg fa-plus"></i>
+  </button>
+</div>
+<div style="position:fixed;right:15px;top:20px;">
+  <button id="nav_btn" class="btn btn-primary">
+    <i class="fa fa-lg fa-navicon"></i>
+  </button>
+</div>
+<script type="text/javascript" src="/public/js/jquery.js"></script>
+<script type="text/javascript" src="/public/js/jquery.pjax.js"></script>
+<script type="text/javascript" src="/public/js/prettify/prettify.js"></script>
+<script type="text/javascript" src="/public/js/nprogress/nprogress.js"></script>
+<script type="text/javascript" src="/public/js/bootstrap.js"></script>
+<script type="text/javascript" src="/public/js/base.js"></script>
+<script>
+    $('a[href="#前端"]').tab('show');
+    $(document).on('pjax:start', function() { NProgress.start(); });
+	$(document).on('pjax:end',   function() { NProgress.done();  });
+</script>
+
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-74789926-1', 'auto');
+  ga('send', 'pageview');
+</script>
+        <!-- AFS Analytics V7- Web Analytics 7.0 -->
+<script type='text/javascript'>
+(function(i,s,o,g,r,a,m){i['AfsAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//code.afsanalytics.com/js2/analytics.js','aa');
+aa('create', '00946158','auto');
+aa('set', 'autotrack', 'on');
+aa('set', 'autotrack.insideclick', 'dataset');
+aa('set', 'autotrack.iframe', 'dataset');
+aa('send', 'pageview');
+</script>
+<!-- End AFS Analytics -->
+    </body>
+</html>
