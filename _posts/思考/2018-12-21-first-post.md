@@ -1,14 +1,14 @@
 ---
 layout: post
-title: first post
+title: 怎么用 md 写jekyll
 categories: [思考]
-tags: [写作, 效率, 工作, 测试tag]
+tags: [写作]
 music: 26199445
 published: True
 
 ---
 
-# first post
+# how to add post 
 this is first
 test image 
 ![/assets/jest.png](/assets/jest.png)
