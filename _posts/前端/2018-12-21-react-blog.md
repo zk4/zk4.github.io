@@ -15,9 +15,9 @@ typora-copy-images-to: ipic
 
 # 步骤
 
-1. 准备 github repo
-2. 准备 react 环境
-3. 上传
+    1. 准备 github repo
+    2. 准备 react 环境
+    3. 上传
 
 
 
