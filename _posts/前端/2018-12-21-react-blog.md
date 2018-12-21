@@ -5,7 +5,7 @@ category: 前端
 tags: [react,github,blog]
 keywords: markdown
 description:
-typora-copy-images-to: ../images
+typora-copy-images-to: ipic
 
 ---
 
@@ -72,7 +72,7 @@ Published
 
  打开 <https://zk4.github.io/react-blog>
 
-![image-20181222013535635](/assets/image-20181222013535635.png)
+![image-20181222013535635](https://zk4.github.io/assets/image-20181222013535635.png)
 
 成功。
 
