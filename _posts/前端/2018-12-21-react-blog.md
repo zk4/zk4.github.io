@@ -29,11 +29,14 @@ typora-copy-images-to: ../images
 
 ``` js 
 create-react-app react-blog
+cd react-blog
+git init 
+git remote add origin git@github.com/zk4/react-blog
 yarn add --dev gh-pages 
 ```
 
-gh-pages 包会帮你管理在 github 上建分支的问题。
-
+gh-pages 命令会帮你管理在 github 上建分支的问题。
+git remote  为 gh-pages 命令提供传输到的位置。
 
 
 在 `package.json` 中添加
