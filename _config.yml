@@ -25,7 +25,7 @@ description:
 url: https://zk4.github.io
 repo: https://github.com/zk4
 rss: "/pages/atom.xml"
-gavatar: "/public/img/gavatar.jpg"
+gavatar: "https://avatars2.githubusercontent.com/u/996674?s=460&v=4"
 favicon: "/public/img/favicon.ico"
 
 # disqus:
