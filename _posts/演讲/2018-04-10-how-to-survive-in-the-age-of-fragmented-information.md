@@ -1,6 +1,6 @@
 ---
 layout: session
-title: 融核π：碎片化信息时代的生存之道
+title: slide demo 
 categories: [演讲]
 tags: [碎片化, PKM]
 speaker: Jimmy Lv
