@@ -9,7 +9,7 @@ published: True
 
 ## 阅读习惯和个人知识管理体系
 
-在互联网时代，知识可以说从未像如此一般廉价，但是**再好的知识若是对个人没有产生价值的话，那也只不过是一种信息噪音而已**。我在 [个人知识管理：知识的三种形态](https://blog.jimmylv.info/2015-10-09-three-types-of-knowledge/) 这篇文章中使用 **`材料 -> 资料 -> 知识`** 这样的路径来解释信息的流通，**如何方便快捷并且有效地收集材料，再将其整理转化为有价值的个人知识体系结构**，在这个信息严重碎片化的时代变得尤为重要。而在 [去伪存真的知识管理之路](https://blog.jimmylv.info/2016-09-16-sorting-out-knowledge-from-information/) 一文中也详细阐述了如何将网络上的碎片化文章纳入统一的稍后阅读体系，比如说有时候在朋友圈看到一篇好文章，但暂时没时间直接看，或是这篇文章值得再读一遍，细读一遍，那么我就会将其存入稍后阅读工具即 [Instapaper](https://www.instapaper.com) 当中，诸如此类的还有 [Pocket](https://getpocket.com/)、[收趣](https://shouqu.me/)等等。
+在互联网时代，知识可以说从未像如此一般廉价，但是**再好的知识若是对个人没有产生价值的话，那也只不过是一种信息噪音而已**。我在 [个人知识管理：知识的三种形态](https://zk4.github.io/2015-10-09-three-types-of-knowledge/) 这篇文章中使用 **`材料 -> 资料 -> 知识`** 这样的路径来解释信息的流通，**如何方便快捷并且有效地收集材料，再将其整理转化为有价值的个人知识体系结构**，在这个信息严重碎片化的时代变得尤为重要。而在 [去伪存真的知识管理之路](https://zk4.github.io/2016-09-16-sorting-out-knowledge-from-information/) 一文中也详细阐述了如何将网络上的碎片化文章纳入统一的稍后阅读体系，比如说有时候在朋友圈看到一篇好文章，但暂时没时间直接看，或是这篇文章值得再读一遍，细读一遍，那么我就会将其存入稍后阅读工具即 [Instapaper](https://www.instapaper.com) 当中，诸如此类的还有 [Pocket](https://getpocket.com/)、[收趣](https://shouqu.me/)等等。
 
 ![](https://o7mw3gkkh.qnssl.com/images/2016/1474027837640.png)
 
@@ -17,7 +17,7 @@ published: True
 
 随着时间的推移，Instapaper 里面的文章将会变得越来越多，就像我们在代码中所注释的 `TODO:` 可能就变成了 `Never Do`，稍后读也是一样地被人广为诟病：Read it Later = Read Never。其实我发现文章堆积的一个永恒痛点就是**没有有效的方式追踪自己的阅读需求与能力，其核心原因就是因为读完的速度赶不上添加的速度**。从而没办法可视化出来评估自己的阅读进度，合理安排阅读计划，也就没办法给予自己适当的奖励，进而失去了阅读的动力。
 
-上回博客大赛写过一篇 [基于 GitHub 的敏捷学习方法之道与术](https://blog.jimmylv.info/2016-12-04-agile-learning-based-on-github-issues/)，其中提到使用 GitHub Issue 来管理自己的学习计划，从而就又产生了这么一个想法，就是将我的稍后阅读列表跟 GitHub 结合起来，使用 ZenHub 丰富的图表功能将阅读体系进行追踪与可视化。
+上回博客大赛写过一篇 [基于 GitHub 的敏捷学习方法之道与术](https://zk4.github.io/2016-12-04-agile-learning-based-on-github-issues/)，其中提到使用 GitHub Issue 来管理自己的学习计划，从而就又产生了这么一个想法，就是将我的稍后阅读列表跟 GitHub 结合起来，使用 ZenHub 丰富的图表功能将阅读体系进行追踪与可视化。
 
 ![](https://o7mw3gkkh.qnssl.com/images/2016/1480844770670.png)
 
@@ -223,13 +223,13 @@ app.get('/reading', (req, res) => {
 
 ## 一些参考资料
 
-- [基于 GitHub 的敏捷学习方法之道与术 - 吕立青的博客](https://blog.jimmylv.info/2016-12-04-agile-learning-based-on-github-issues/)
+- [基于 GitHub 的敏捷学习方法之道与术 - 吕立青的博客](https://zk4.github.io/2016-12-04-agile-learning-based-on-github-issues/)
 - [Build a Serverless MERN Story App With Webtask.io -- Zero to Deploy: 1 ― Scotch](https://scotch.io/tutorials/build-a-serverless-mern-story-app-with-webtask-io-zero-to-deploy-1)
 - [触发你的智能生活：IFTTT 入门 - 少数派](https://sspai.com/post/25270)
 - [利用 IFTTT Maker DIY 你的 Applet - 少数派](https://sspai.com/post/39243)
-- [个人知识管理：知识的三种形态 - 吕立青的博客](https://blog.jimmylv.info/2015-10-09-three-types-of-knowledge/)
+- [个人知识管理：知识的三种形态 - 吕立青的博客](https://zk4.github.io/2015-10-09-three-types-of-knowledge/)
 - [用 GTD 的方法结束稍后读 - 少数派](https://sspai.com/post/33933)
-- [不断革新，不断改进：去伪存真的知识管理之路 - 吕立青的博客](https://blog.jimmylv.info/2016-09-16-sorting-out-knowledge-from-information/)
+- [不断革新，不断改进：去伪存真的知识管理之路 - 吕立青的博客](https://zk4.github.io/2016-09-16-sorting-out-knowledge-from-information/)
 - [卡片状态累积流图（Cumulative Flow Diagram – CFD ） – 效率云](http://xiaolvyun.baidu.com/docs/knowledge-base/788)
 
 
