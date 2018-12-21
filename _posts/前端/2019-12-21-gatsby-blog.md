@@ -30,17 +30,18 @@ typora-copy-images-to: ipic
 ``` js 
 yarn global add  gatsby-cli
 gatsby new gatsby-blog 
+cd gatsby-blog 
 git init 
 git remote add origin git@github.com/zk4/gatsby-blog
 yarn add --dev gh-pages 
 ```
+gh-pages 命令会帮你管理在 github 上建分支的问题。  
+git remote  为 gh-pages 命令提供传输到的位置。  
+
 gatsby new 也可以从模板创建  
 ``` js
 gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-hello-world
 ```
-gh-pages 命令会帮你管理在 github 上建分支的问题。  
-git remote  为 gh-pages 命令提供传输到的位置。  
-
 
 在 `package.json` 中添加
 
