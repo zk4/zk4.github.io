@@ -72,7 +72,7 @@ Published
 
  打开 <https://zk4.github.io/react-blog>
 
-![image-20181222013535635](https://zk4.github.io/assets/image-20181222013535635.png)
+![](https://ws1.sinaimg.cn/large/006tNbRwly1fyezjkcqsnj30i30cnmzk.jpg)
 
 成功。
 
