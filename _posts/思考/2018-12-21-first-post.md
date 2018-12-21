@@ -14,8 +14,7 @@ published: True
 2. 在文章里用  `![](/assets/jest.png)` 引用图片  <br>
     ![](/assets/jest.png)
 
-# 引用其他文章
-
+![d](../images/jest.png)
 
 ``` js 
 console.log("hello",world)
