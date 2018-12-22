@@ -89,8 +89,8 @@ function contentEffects(){
         tag = current.prop('tagName').substr(-1);
         $("#nav").append("<div style='margin-left:"+15*(tag-1)+"px'><a id='link" + i + "' href='#title" +i + "'>" + current.html() + "</a></div>");
     }); 
-    $("pre").addClass("prettyprint");
-    prettyPrint(); 
+    // $("pre").addClass("prettyprint");
+    // prettyPrint(); 
     $('#content img').addClass('img-thumbnail').parent('p').addClass('center');
     $('#content_btn').show();
   }else{

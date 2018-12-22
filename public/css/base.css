@@ -102,8 +102,11 @@ h4.panel-title {
   color: white;
 }
 pre.prettyprint{
+  background: #444 !important;
+  
   transition: background 0.2s ease-in;
 }
+ 
 ::selection{
   background: #ffb7b7!important;
 }
