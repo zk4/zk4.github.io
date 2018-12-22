@@ -5581,7 +5581,8 @@ a.list-group-item-danger.active:focus {
 }
 
 .panel-title>a {
-    color: inherit
+    color: #333;
+
 }
 
 .panel-footer {
@@ -5833,8 +5834,9 @@ a.list-group-item-danger.active:focus {
 
 .panel-info>.panel-heading {
     color: #000;
-    background-color: #5D5D5D;
-    border-color: #B7F4ED;
+    /* background-color: #5D5D5D; */
+    
+   border-bottom-color: #B7F4ED;
 }
 
 .panel-info>.panel-heading+.panel-collapse>.panel-body {
