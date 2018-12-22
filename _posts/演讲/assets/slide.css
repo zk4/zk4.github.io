@@ -216,6 +216,8 @@ body {
   word-wrap: normal;
   background: #3F3F3F;
   color: #DCDCDC;
+  -webkit-overflow-scrolling:touch;
+
 }
 
 /* line 185, template/theme.scss */

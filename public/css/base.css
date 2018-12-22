@@ -145,6 +145,7 @@ h4.panel-title {
   opacity: 0.65;
   width: 250px;
   overflow: auto;
+  -webkit-overflow-scrolling:touch;
 }
 
 #nav {
