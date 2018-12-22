@@ -90,6 +90,7 @@ ul.nav.nav-pills.nav-stacked {
   /*background-image: url(/public/img/body_bg.jpg);*/
   height: 100%;
   overflow-y: auto;
+  -webkit-overflow-scrolling:touch;
   font-color: #fff;
   padding-top: 59px;
   /*padding-right: 30px;*/
@@ -105,6 +106,8 @@ h4.panel-title {
   height: 100%;
   overflow-y: auto;
   background-color: #fff;
+  -webkit-overflow-scrolling:touch;
+
   /*background-image: url(/public/img/bg_lines1.jpg);*/
 }
 .aside3-slogan {
