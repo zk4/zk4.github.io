@@ -40,7 +40,7 @@ comments:
   gitalk_admin: 'zk4'
   distractionFreeMode: true
  
-active: 前端
+active: 文章
 cates:
 - React
 - PKM

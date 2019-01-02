@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 部署 react 到 github  gh-pages
-category: 前端
+category: 文章
 tags: [react,github,blog]
 keywords: markdown
 description:

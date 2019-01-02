@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 部署 gatsby JS 到 github  gh-pages
-category: 前端
+category: 文章
 tags: [gatsby,github,blog]
 keywords: markdown
 description:
