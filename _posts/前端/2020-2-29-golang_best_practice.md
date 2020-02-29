@@ -1,3 +1,25 @@
+
+---
+
+layout: post
+
+title: "Golang 最佳实践" 
+
+category: 文章
+
+tags: [golang]
+
+keywords: Golang
+
+description:
+
+typora-copy-images-to: ipic
+
+toc: true
+
+---
+
+
 # Golang
 ## 环境 
 
