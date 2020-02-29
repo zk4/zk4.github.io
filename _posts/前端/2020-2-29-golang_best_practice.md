@@ -1,19 +1,11 @@
 ---
-
 layout: post
-
-title: "Golang 最佳实践" 
-
+title: Golang 最佳实践
 category: 文章
-
 tags: [golang]
-
-keywords: Golang
-
+keywords: golang
 description:
-
 typora-copy-images-to: ipic
-
 toc: true
 
 ---
