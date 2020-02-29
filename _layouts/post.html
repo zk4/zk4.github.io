@@ -13,7 +13,7 @@ layout: base
   </div>
   <!-- <hr/> -->
   <div class="col-md-12 aside3-content">
-    <div id="content">{{ content }}</div>
+    <div id="content">{{ content | toc}}</div>
     {% include related_posts.html %}
     {% include disqus.html %}
   </div>
