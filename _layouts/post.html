@@ -12,8 +12,11 @@ layout: base
     <div class="aside3-date">{{ page.date | date:"%Y年%m月%d日" }}</div>
   </div>
   <!-- <hr/> -->
+	<div id="table-of-contents">
+    {{ content | toc_only }}
+  </div>
   <div class="col-md-12 aside3-content">
-    <div id="content">{{ content | toc}}</div>
+    <div id="content">{{ content }}</div>
     {% include related_posts.html %}
     {% include disqus.html %}
   </div>
