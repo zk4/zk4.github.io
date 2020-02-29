@@ -1077,9 +1077,9 @@ func main(){
 
 形如 import "xxx/xxx" 这种形式
 
-![图片 7](./assets/b8240c15-c2bf-4ca3-86fb-87846f8bc8ad.png)
+![图片 7](.././assets/2cc534cf-9eb0-42fa-9639-e4ad06a1a10d.png)
 
-![图片 8](./assets/46bc6f61-a7e4-4fe4-a685-fdd4bd5fbb54.png)
+![图片 8](.././assets/15460e3c-da83-4025-bd5c-62b3e55f4479.png)
 
 ### 引用
 
@@ -1561,7 +1561,7 @@ after download , `latest` will be changed to the real git SHA version .
 
 and the pacakge located in $GOPATH/pkg/mod/cache/download/
 
-![Image](./assets/3a2f3378-44e7-4d56-aad9-74f4007c0aef.png)
+![Image](.././assets/e99ab88a-7c95-43d8-a5e4-46601fc53e47.png)
 
 
 开始 main.go 
@@ -1704,7 +1704,7 @@ go build
 
 自动引用使用的包，并格式化。集成 vim 很舒服。
 
-![img](./assets/a8c8142e-f588-4a9b-9405-ba3ab748da37.jpg)
+![img](.././assets/79ff95ab-8013-482f-a58e-b7a60df85c50.jpg)
 
 ### 查看当前包依赖
 
@@ -3320,7 +3320,7 @@ i, err = doDivision(i,2)
 ## intellij 配置
 不用关心　sdk　里的配置，只要环境变量配对了就行
 可以配置新的　GOPATH,　比较方便
-![Image](./assets/3ae3c0ae-b1d0-49c7-8b5c-9ed158aab680.png)
+![Image](.././assets/0e6f7a4b-f853-408a-847a-a8dcda94c6bf.png)
 
 ## 参考文档
 
