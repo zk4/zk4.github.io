@@ -11,7 +11,7 @@ layout: post
 # Unidirectional User Interface Architectures | 单向用户界面架构
 
 原文地址：<http://staltz.com/unidirectional-user-interface-architectures.html>
-    
+​    
 22 Aug 2015, [André Staltz](http://staltz.com/)
 
 This post is a non-exhaustive quick overview of the so-called “unidirectional data flow” architectures. Not meant to be taken as a beginner tutorial, but rather as an overview of their differences and peculiarities. At the end, I’ll introduce a new architecture which deviates significantly from the others. This post assumes client-side Web UI frameworks only.
