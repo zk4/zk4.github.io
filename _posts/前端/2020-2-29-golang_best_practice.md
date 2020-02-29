@@ -1,24 +1,5 @@
----
-
-layout: post
-
-title: Golang 最佳实践
-
-category: 文章
-
-tags: [Golang,best-practice]
-
-keywords: Golang
-
-description:
-
-typora-copy-images-to: ipic
-
----
-
 # Golang
-
-## 环境
+## 环境 
 
 ## 语言基础
 
@@ -1096,9 +1077,9 @@ func main(){
 
 形如 import "xxx/xxx" 这种形式
 
-![图片 7](assets/7.png)
+![图片 7](./assets/b8240c15-c2bf-4ca3-86fb-87846f8bc8ad.png)
 
-![图片 8](assets/8.png)
+![图片 8](./assets/46bc6f61-a7e4-4fe4-a685-fdd4bd5fbb54.png)
 
 ### 引用
 
@@ -1580,7 +1561,7 @@ after download , `latest` will be changed to the real git SHA version .
 
 and the pacakge located in $GOPATH/pkg/mod/cache/download/
 
-![Image](assets/2020-02-06-18:04.png)
+![Image](./assets/3a2f3378-44e7-4d56-aad9-74f4007c0aef.png)
 
 
 开始 main.go 
@@ -1723,7 +1704,7 @@ go build
 
 自动引用使用的包，并格式化。集成 vim 很舒服。
 
-![img](assets/v2-824d9630eb5186a0c7bc80e00fc4b35e_hd.jpg)
+![img](./assets/a8c8142e-f588-4a9b-9405-ba3ab748da37.jpg)
 
 ### 查看当前包依赖
 
@@ -3339,7 +3320,7 @@ i, err = doDivision(i,2)
 ## intellij 配置
 不用关心　sdk　里的配置，只要环境变量配对了就行
 可以配置新的　GOPATH,　比较方便
-![Image](assets/2020-02-25-17-44-35.png)
+![Image](./assets/3ae3c0ae-b1d0-49c7-8b5c-9ed158aab680.png)
 
 ## 参考文档
 
